@@ -11,3 +11,4 @@ Usertype.create([{name:'Buyer'},{name:'Vendor'}])
 User.create([{username:'jsmith',first_name:'joe',last_name:'smith',phone:'1231234567',usertype_id:1},
   {username:'johndoe',first_name:'john',last_name:'Doe',phone:'1231234567',usertype_id:2}
   ])
+
