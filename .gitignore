@@ -6,9 +6,9 @@
 /Vagrantfile
 
 # Ignore bundler config.
-/.bundle
+/ManeSt/.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-!/log/.keep
-/tmp
+/ManeSt/log/*
+!/ManeSt/log/.keep
+/ManeSt/tmp
