@@ -1,0 +1,20 @@
+<COMBINE>
+<DATE>03082015</DATE>
+<AGENCY><![CDATA[Defense Logistics Agency]]></AGENCY>
+<OFFICE><![CDATA[DLA Acquisition Locations]]></OFFICE>
+<LOCATION><![CDATA[DLA Land and Maritime - BSM]]></LOCATION>
+<ZIP>43218-3990</ZIP>
+<CLASSCOD>48</CLASSCOD>
+<NAICS>332911</NAICS>
+<OFFADD><![CDATA[332911]]></OFFADD>
+<SUBJECT><![CDATA[48--SLEEVE AND SLIDE,DI]]></SUBJECT>
+<SOLNBR><![CDATA[SPE7MC15T6636]]></SOLNBR>
+<RESPDATE>03192015</RESPDATE>
+<ARCHDATE>04182015</ARCHDATE>
+<CONTACT><![CDATA[Questions regarding this solicitation should be emailed to the buyer listed in block 5 of the solicitation document which can be found under the Additional Information link.If the Additional Information link does not work, please go to https://www.dibbs.bsm.dla.mil/Solicitations/ and type the solicitation number in the Global Search box.]]></CONTACT>
+<DESC><![CDATA[Proposed procurement for NSN 4810014397621 SLEEVE AND SLIDE,DI:Line 0001 Qty 19.00  UI EA  Deliver To: W1BG DLA DISTRIBUTION By: 0176 DAYS ADOThe solicitation is an RFQ and will be available at the link provided in this notice.  Hard copies of this solicitation are not available.  Digitized drawings and Military Specifications and Standards may be retrieved, or ordered, electronically.All responsible sources may submit a quote which, if timely received, shall be considered.Quotes must be submitted electronically.]]></DESC>
+<LINK><![CDATA[https://www.fbo.gov/spg/DLA/J3/DSCC-BSM/SPE7MC15T6636/listing.html]]></LINK>
+<SETASIDE>Total Small Business</SETASIDE>
+<RECOVERY_ACT>N</RECOVERY_ACT>
+<DOCUMENT_PACKAGES></DOCUMENT_PACKAGES>
+</COMBINE>
