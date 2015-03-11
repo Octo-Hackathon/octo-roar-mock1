@@ -7,14 +7,14 @@ var my18fControllers = angular.module('my18fControllers', []);
 /**
  * Controller for user list page, grabs user list
  */
-my18fControllers.controller('ViewCtrl', function($scope, $http) {
+my18fControllers.controller('ViewCtrl', function($scope) {
 
 });
 
 /**
  * Controller for user add page, grabs form submit and does something with it
  */
-my18fControllers.controller('CreateCtrl', function($scope) {
+my18fControllers.controller('CreateCtrl', function($scope, $http) {
 
     $scope.opp = {
       'title',
@@ -29,7 +29,7 @@ my18fControllers.controller('CreateCtrl', function($scope) {
 
     $scope.submit = function() {
 
-      $http.post('/api/government/opportunities'+JSON.stringify({opportunity : $scope.opp})).success(function(data) {
+      $http.post('/api/government/opportunities'+JSON.stringify({opportunity : this.opp})).success(function(data) {
 
         console.log('Added');
         console.log(data);
