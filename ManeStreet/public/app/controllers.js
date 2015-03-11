@@ -20,7 +20,7 @@ my18fControllers.controller('CreateCtrl', function($scope, $http) {
       'title': '',
       'description': '',
       'responseduedate': '',
-      'type': '',
+      'opportunitytype': '',
       'setaside': '',
       'buyername': '',
       'primarypoc': '',
@@ -29,7 +29,7 @@ my18fControllers.controller('CreateCtrl', function($scope, $http) {
 
     $scope.submit = function() {
 
-      $http.post('/api/government/opportunities'+JSON.stringify({opportunity: this.opp})).success(function(data) {
+      $http.post('/ManeStreet/api/government/opportunities'+JSON.stringify({opportunity: this.opp})).success(function(data) {
 
         console.log('Added');
         console.log(data);
