@@ -5,12 +5,13 @@ before_install:
   - "sh -e /etc/init.d/xvfb start"
   - gem install sass
   - gem install compass
+  - bundle install
 
 node_js:
   - '0.10'
 
 before_script:
   - 'npm install -g bower grunt-cli karma'
-#  - 'bower install ManeStreet/'
+  - 'bower install ManeStreet/'
 
 script: 'rake -f ManeStreet/Rakefile'
