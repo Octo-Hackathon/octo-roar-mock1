@@ -17,19 +17,19 @@ my18fControllers.controller('ViewCtrl', function($scope) {
 my18fControllers.controller('CreateCtrl', function($scope, $http) {
 
     $scope.opp = {
-      'title',
-      'description',
-      'responseduedate',
-      'type',
-      'setaside',
-      'buyername',
-      'primarypoc',
-      'placeofperform'
+      'title': '',
+      'description': '',
+      'responseduedate': '',
+      'type': '',
+      'setaside': '',
+      'buyername': '',
+      'primarypoc': '',
+      'placeofperform': ''
     };
 
     $scope.submit = function() {
 
-      $http.post('/api/government/opportunities'+JSON.stringify({opportunity : this.opp})).success(function(data) {
+      $http.post('/api/government/opportunities'+JSON.stringify({opportunity: this.opp})).success(function(data) {
 
         console.log('Added');
         console.log(data);
