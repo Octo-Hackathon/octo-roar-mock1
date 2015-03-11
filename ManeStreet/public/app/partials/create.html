@@ -7,48 +7,48 @@
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<form>
+		<form ng-controller="CreateCtrl" ng-submit="submit()">
 			<div class="form-group">
 				<div class="row padding">
 					<div class="col-lg-12">
 						<label for="title">Title</label>
-						<input class="form-control" type="text" name="title" id="title">
+						<input class="form-control" type="text" name="title" ng-model="opp.title" id="title">
 					</div>
 				</div>
 				<div class="row padding">
 					<div class="col-lg-12">
 						<label for="desc">Description</label>
-						<textarea class="form-control" name="description" id="description"></textarea>
+						<textarea class="form-control" name="description" ng-model="opp.description" id="description"></textarea>
 					</div>
 				</div>
 				<div class="row padding">
 					<div class="col-lg-4">
-						<label for="due_date">Response Due Date</label>
-						<input class="form-control" type="text" name="due_date" id="due_date">
+						<label for="duedate">Response Due Date</label>
+						<input class="form-control" type="text" name="duedate" ng-model="opp.duedate" id="duedate">
 					</div>
 					<div class="col-lg-4">
 						<label for="type">Type</label>
-						<input class="form-control" type="text" name="type" id="type">
+						<input class="form-control" type="text" name="type" ng-model="opp.type" id="type">
 					</div>
 					<div class="col-lg-4">
-						<label for="set_aside">Set Aside</label>
-						<input class="form-control" type="text" name="set_aside" id="set_aside">
+						<label for="setaside">Set Aside</label>
+						<input class="form-control" type="text" name="set_aside" ng-model="opp.setaside" id="setaside">
 					</div>
 				</div>
 				<div class="row padding">
 					<div class="col-lg-6">
-						<label for="type">Buyer Name</label>
-						<input class="form-control" type="text" name="buyer_name" id="buyer_name">
+						<label for="buyername">Buyer Name</label>
+						<input class="form-control" type="text" name="buyername" ng-model="opp.buyername" id="buyername">
 					</div>
 					<div class="col-lg-6">
-						<label for="poc">Primary POC</label>
-						<input class="form-control" type="text" name="poc" id="poc">
+						<label for="primarypoc">Primary POC</label>
+						<input class="form-control" type="text" name="poc" ng-model="opp.primarypoc" id="primarypoc">
 					</div>
 				</div>
 				<div class="row padding">
 					<div class="col-lg-6">
-						<label for="place">Place of Performance</label>
-						<input class="form-control" type="text" name="place" id="place">
+						<label for="placeofperform">Place of Performance</label>
+						<input class="form-control" type="text" name="place" ng-model="opp.placeofperform" id="placeofperform">
 					</div>
 				</div>
 				<div class="row padding">

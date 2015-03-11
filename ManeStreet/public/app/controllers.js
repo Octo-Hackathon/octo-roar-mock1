@@ -16,16 +16,25 @@ my18fControllers.controller('ViewCtrl', function($scope, $http) {
  */
 my18fControllers.controller('CreateCtrl', function($scope) {
 
-    $scope.user = {
-      first_name: '',
-      last_name: '',
-      address: '',
-      phone: ''
+    $scope.opp = {
+      'title',
+      'description',
+      'responseduedate',
+      'type',
+      'setaside',
+      'buyername',
+      'primarypoc',
+      'placeofperform'
     };
 
     $scope.submit = function() {
 
-      alert('User added: '+this.user.first_name+' '+this.user.last_name);
+      $http.post('/api/government/opportunities'+JSON.stringify({opportunity : $scope.opp})).success(function(data) {
+
+        console.log('Added');
+        console.log(data);
+
+      });
 
     }
 
