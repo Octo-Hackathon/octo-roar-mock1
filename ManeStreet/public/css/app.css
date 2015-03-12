@@ -83,7 +83,8 @@ p {
 	color:#FFF;
 }
 .mane-content {
-	overflow:hidden;	
+	overflow:hidden;
+	margin-bottom:40px;	
 }
 .mane-meta {
 	border-bottom:solid 1px #B6B6B6;
@@ -95,6 +96,12 @@ p {
 }
 
 /* Links & Buttons */
+
+.mane-action-bar {
+	border-top:1px solid #607D8B;
+	background-color:#fff;
+	padding-top:.8em;	
+}
 .btn {
 	border:none;
 	border-radius:0;
@@ -116,6 +123,11 @@ p {
 	background-color:#607D8B;
 	color:#FFF;
 }
+.btn-mane-default:hover {
+	background-color:#455A64;
+	color:#fff;	
+}
+
 
 .listing a {
 	display: block;
@@ -126,7 +138,7 @@ p {
 }
 
 a {
-	color:#607D8B;
+	color:#607D8B;	
 }
 
 a:hover {
