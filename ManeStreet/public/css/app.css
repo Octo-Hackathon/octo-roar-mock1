@@ -18,6 +18,11 @@ Light Grey	#B6B6B6
 	padding: 10px 0;
 }
 
+.navbar-primary {
+	background-color:#455A64;	
+}
+
+/* Links & Buttons */
 .btn {
 	border:none;
 }
@@ -32,4 +37,12 @@ Light Grey	#B6B6B6
 .btn-mane:hover, .btn-primary:hover {
 	background-color:#607D8B;
 	color:#B6B6B6;
+}
+
+a {
+	color:#607D8B;	
+}
+
+a:hover {
+	color:#455A64;
 }
