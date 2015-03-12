@@ -67,8 +67,16 @@ body{
 	color:#FFF;
 }
 
+.listing a {
+	display: block;
+}
+
+.listing .date {
+	float: right;
+}
+
 a {
-	color:#607D8B;	
+	color:#607D8B;
 }
 
 a:hover {
