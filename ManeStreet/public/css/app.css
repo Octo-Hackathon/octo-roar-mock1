@@ -150,8 +150,10 @@ p {
 	line-height:1.5em;	
 }
 
-.listing .date {
-	float: right;
+.mane-search {
+	background-color:#CFD8DC;
+	color:#455A64;
+	padding:7px 0;
 }
 
 a {
