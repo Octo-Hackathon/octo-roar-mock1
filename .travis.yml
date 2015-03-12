@@ -5,7 +5,7 @@ before_install:
   - "sh -e /etc/init.d/xvfb start"
   - gem install sass
   - gem install compass
-  - bundle install
+  - bundle install --gemfile=ManeStreet/Gemfile
 
 node_js:
   - '0.10'
