@@ -33,6 +33,19 @@ my18fControllers.controller('DetailCtrl', function($scope, $http, $routeParams) 
 });
 
 /**
+ * Controller for user list page, grabs user list
+ */
+my18fControllers.controller('EditCtrl', function($scope, $http, $routeParams) {
+
+    $http.get('/api/government/opportunities/'+$routeParams.oppId).success(function(data) {
+
+      $scope.opp = data;
+
+    });
+
+});
+
+/**
  * Controller for user add page, grabs form submit and does something with it
  */
 my18fControllers.controller('CreateCtrl', function($scope, $http) {

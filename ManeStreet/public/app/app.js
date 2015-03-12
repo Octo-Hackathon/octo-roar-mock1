@@ -22,9 +22,13 @@ my18fApp.config(['$routeProvider',
         templateUrl: 'app/partials/detail.html',
         controller: 'DetailCtrl'
       }).
+      when('/edit/:oppId', {
+        templateUrl: 'app/partials/create.html',
+        controller: 'EditCtrl'
+      }).
       when('/view', {
         templateUrl: 'app/partials/view.html',
-        controller: 'ViewCtrl'
+        controller: 'ManageCtrl'
       }).
       otherwise({
         redirectTo: '/view'
