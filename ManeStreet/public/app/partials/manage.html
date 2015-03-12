@@ -1,9 +1,9 @@
 <div class="container">
-	<div class="col-lg-12">
+	<div class="col-md-12 col-lg-12">
 		<h2 class="page-heading">Opportunity Listing <a href="/#/create" alt="Create" class="mane-link pull-right"><span class="glyphicon glyphicon-plus"></span> Create Opportunity</a></h2>
 	</div>
 	<div class="row">
-		<div class="col-lg-12">
+		<div class="col-md-12 col-lg-12">
 			<form class="form-inline">
 				<label for="search">Search</label>
 				<input type="text" class="form_control" id="search" name="search">
@@ -18,25 +18,25 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-2 col-lg-offset-1">All</div>
-		<div class="col-lg-2">Today</div>
-		<div class="col-lg-2">Last 7 Days</div>
-		<div class="col-lg-2">Last 30 Days</div>
-		<div class="col-lg-2">Last 60 Days</div>
+		<div class="col-md-2 col-lg-2 col-lg-offset-1">All</div>
+		<div class="col-md-2 col-lg-2">Today</div>
+		<div class="col-md-2 col-lg-2">Last 7 Days</div>
+		<div class="col-md-2 col-lg-2">Last 30 Days</div>
+		<div class="col-md-2 col-lg-2">Last 60 Days</div>
 	</div>
 	<div class="row" ng-repeat="opp in opportunities | orderBy:orderProp" dir-paginate="item in items | itemsPerPage: 10">
-		<div class="col-lg-9 listing">
+		<div class="col-md-9 col-lg-9 listing">
 			<a href="/#/details/{{opp.id}}">{{opp.title}}</a>
 			<span class="date">{{opp.publishdate}}</span>
 			<span class="type">OPP-{{opp.id}} | {{opp.opportunitytype}}</span>
 			<p>{{opp.description}}</p>
 		</div>
-		<div class="col-lg-3 mane-meta">
+		<div class="col-md-9 col-lg-3 mane-meta">
 			<a role="button" href="/#/edit/{{opp.id}}" class="btn btn-mane-primary" style="display: block;">Edit</a>
 			<a role="button" href="/#/delete/{{opp.id}}" class="btn btn-mane" style="display: block;">Delete</a>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-12"><dir-pagination-controls></dir-pagination-controls></div>
+		<div class="col-md-12 col-lg-12"><dir-pagination-controls></dir-pagination-controls></div>
 	</div>
 </div>
