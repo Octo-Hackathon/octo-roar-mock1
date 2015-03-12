@@ -23,7 +23,7 @@ my18fApp.config(['$routeProvider',
         controller: 'DetailCtrl'
       }).
       when('/edit/:oppId', {
-        templateUrl: 'app/partials/create.html',
+        templateUrl: 'app/partials/edit.html',
         controller: 'EditCtrl'
       }).
       when('/view', {
