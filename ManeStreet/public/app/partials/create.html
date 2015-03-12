@@ -1,4 +1,4 @@
-<div class="mane-content container">
+  <div class="mane-content container">
   
   	<div class="row">
         <div class="col-sm-3 col-sm-push-9">
@@ -13,11 +13,11 @@
     	<div class="col-lg-12">
 		<form ng-controller="CreateCtrl" ng-submit="submit()">
 			<div class="form-group">
-                <label for="title">Title <span class="small text-uppercase">(Required)</span></label>
+                <label for="title">Title <span class="small text-muted text-uppercase">(Required)</span></label>
                 <input class="form-control" type="text" name="title" ng-model="opp.title" id="title" required>
             </div>
 			<div class="form-group">
-                <label for="desc">Description</label>
+                <label for="desc">Description <span class="small text-muted text-uppercase">(Required)</span></label>
                 <textarea class="form-control" name="description" ng-model="opp.description" id="description" required></textarea>
             </div>
 			<div class="form-group">
@@ -27,7 +27,7 @@
                         <input class="form-control" type="text" name="duedate" ng-model="opp.duedate" id="duedate">
                     </div>
                     <div class="col-md-4">
-                        <label for="opportunitytype">Type</label>
+                        <label for="opportunitytype">Type <span class="small text-muted text-uppercase">(Required)</span></label>
                         <input class="form-control" type="text" name="type" ng-model="opp.opportunitytype" id="opportunitytype" required>
                     </div>
                     <div class="col-md-4">
@@ -40,11 +40,11 @@
 			<div class="form-group">
             	<div class="row">
 					<div class="col-md-6">
-						<label for="buyername">Buyer Name</label>
+						<label for="buyername">Buyer Name <span class="small text-muted text-uppercase">(Required)</span></label>
 						<input class="form-control" type="text" name="buyername" ng-model="opp.buyername" id="buyername" required>
 					</div>
 					<div class="col-md-6">
-						<label for="primaypoc">Primary POC</label>
+						<label for="primaypoc">Primary POC <span class="small text-muted text-uppercase">(Required)</span></label>
 						<input class="form-control" type="text" name="poc" ng-model="opp.primaypoc" id="primaypoc" required>
 					</div>
 				</div>
@@ -52,7 +52,7 @@
 			<div class="form-group">
             	<div class="row">
 					<div class="col-md-6">
-						<label for="placeofperform">Place of Performance</label>
+						<label for="placeofperform">Place of Performance <span class="small text-muted text-uppercase">(Required)</span></label>
 						<input class="form-control" type="text" name="place" ng-model="opp.placeofperform" id="placeofperform" required>
 					</div>
 				</div>
@@ -72,7 +72,7 @@
     		<div class="row mane-action-bar">
             	<div class="hidden-xs">
 					<div class="col-sm-6">
-						<input class="btn btn-mane" type="submit" value="Save">
+						<input class="btn btn-mane-default" type="submit" value="Save">
 						<input class="btn btn-mane-primary" type="submit" value="Publish">
                     </div>
                     
