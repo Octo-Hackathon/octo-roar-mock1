@@ -16,7 +16,8 @@ before_script:
   - sudo apt-get install mysql-server
   - sudo apt-get install mysql-server mysql-client
   - sudo apt-get install libmysql-ruby
-  - rake -f ManeStreet/Rakefile db:create RAILS_ENV=test
+  - mysql -e "create database ManeStreet_test;" -uroot -proot
+#  - rake -f ManeStreet/Rakefile db:create RAILS_ENV=test
   - rake -f ManeStreet/Rakefile db:migrate RAILS_ENV=test
   - rake -f ManeStreet/Rakefile db:seed RAILS_ENV=test
 
