@@ -2,20 +2,8 @@ require 'test_helper'
 
 class OpportunitiesControllerTest < ActionController::TestCase
   setup do
-    @opportunity = opportunities(:one)
-    @update = {
-      title: 'Test Title',
-      opportunitytype: 'Test Type',
-      description: 'Test Description',
-      setaside: 'Tets set aside',
-      responseduedate: '3/10/2015',
-      status: 'Draft',
-      buyername: 'test Byuername',
-      placeofperform: 'NIH',
-      primaypoc: 'Joe trump',
-      user_id: 1,
-        
-    }
+    @opportunity = opportunities(:two)
+    @opportunity2 =opportunities(:one)
   end
 
   test "should get index" do
@@ -26,7 +14,15 @@ class OpportunitiesControllerTest < ActionController::TestCase
 
   test "should create opportunity" do
     assert_difference('Opportunity.count') do
-      post :create, opportunity: { buyername: @opportunity.buyername, description: @opportunity.description, placeofperform: @opportunity.placeofperform, primaypoc: @opportunity.primaypoc, publishdate: @opportunity.publishdate, responseduedate: @opportunity.responseduedate, setaside: @opportunity.setaside, status: @opportunity.status, title: @opportunity.title, type: @opportunity.type }
+      post :create, opportunity: { buyername: @opportunity.buyername, description: @opportunity.description, placeofperform: @opportunity.placeofperform, primaypoc: @opportunity.primaypoc, publishdate: @opportunity.publishdate, responseduedate: @opportunity.responseduedate, setaside: @opportunity.setaside, status: @opportunity.status, title: @opportunity.title, opportunitytype: @opportunity.opportunitytype }
+    end
+
+    assert_response 201
+  end
+  
+  test "should create opportunity2" do
+    assert_difference('Opportunity.count') do
+      post :create, opportunity: { buyername: @opportunity2.buyername, description: @opportunity2.description, placeofperform: @opportunity2.placeofperform, primaypoc: @opportunity2.primaypoc, publishdate: @opportunity2.publishdate, responseduedate: @opportunity2.responseduedate, setaside: @opportunity2.setaside, status: @opportunity2.status, title: @opportunity2.title, opportunitytype: @opportunity2.opportunitytype }
     end
 
     assert_response 201
@@ -38,7 +34,7 @@ class OpportunitiesControllerTest < ActionController::TestCase
   end
 
   test "should update opportunity" do
-    put :update, id: @opportunity, opportunity: { buyername: @opportunity.buyername, description: @opportunity.description, placeofperform: @opportunity.placeofperform, primaypoc: @opportunity.primaypoc, publishdate: @opportunity.publishdate, responseduedate: @opportunity.responseduedate, setaside: @opportunity.setaside, status: @opportunity.status, title: @opportunity.title, type: @opportunity.type }
+    put :update, id: @opportunity, opportunity: { buyername: @opportunity.buyername, description: @opportunity.description, placeofperform: @opportunity.placeofperform, primaypoc: @opportunity.primaypoc, publishdate: @opportunity.publishdate, responseduedate: @opportunity.responseduedate, setaside: @opportunity.setaside, status: @opportunity.status, title: @opportunity.title, opportunitytype: @opportunity.opportunitytype }
     assert_response 204
   end
 

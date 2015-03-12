@@ -1,25 +1,27 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  type: 
-  description: MyText
-  setaside: MyString
+  title: 
+  opportunitytype: Buyer
+  description: test description
+  setaside: test setaside
   publishdate: 2015-03-11 22:38:19
   responseduedate: 2015-03-11
-  status: MyString
-  buyername: MyString
-  placeofperform: MyString
-  primaypoc: MyString
-
+  status: Draft
+  buyername: Test buyer
+  placeofperform: NIH
+  primaypoc: John doe
+  user_id: 1
+  
 two:
-  title: MyString
-  type: 
-  description: MyText
-  setaside: MyString
+  title: Test Title
+  opportunitytype: Vendor
+  description: Test Description
+  setaside: test2 aside
   publishdate: 2015-03-11 22:38:19
   responseduedate: 2015-03-11
-  status: MyString
-  buyername: MyString
-  placeofperform: MyString
-  primaypoc: MyString
+  status: Draft
+  buyername: NHLBI
+  placeofperform: NIH
+  primaypoc: Smithhoe
+  user_id: 2
