@@ -7,7 +7,15 @@ var my18fControllers = angular.module('my18fControllers', []);
 /**
  * Controller for user list page, grabs user list
  */
-my18fControllers.controller('ViewCtrl', function($scope) {
+my18fControllers.controller('ManageCtrl', function($scope, $http) {
+
+    $http.get('/opportunities').success(function(data) {
+
+      $scope.opportunities = data;
+
+    });
+
+    $scope.orderProp = '-id';
 
 });
 

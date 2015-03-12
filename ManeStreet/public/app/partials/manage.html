@@ -1,0 +1,27 @@
+<div class="container">
+	<div class="col_lg_12">
+		<h2 class="page-heading">Opportunity Listing <a href="/create" alt="Create" class="mane-link pull-right"><span class="glyphicon glyphicon-menu-left"></span> Back to Listing</a></h2>
+	</div>
+	<div class="row">
+		<div class="col_lg_12">
+			Search
+		</div>
+	</div>
+	<div class="row">
+		<div class="col_lg_12">
+			Dates
+		</div>
+	</div>
+	<div class="row" ng-repeat="opp in opportunities | orderBy:orderProp">
+		<div class="col-lg-9">
+			<a href="/details/{{opp.id}}">{{opp.title}}</a>
+			<span class="date">{{opp.publishdate}}</span>
+			<span class="type">OPP-{{opp.id}} | {{opp.opportunitytype}}</span>
+			<p>{{opp.description}}</p>
+		</div>
+		<div class="col-lg-3">
+			<a href="#" class="form_control btn btn_primary">Edit</a>
+			<a href="#" class="form_control btn btn_default">Delete</a>
+		</div>
+	</div>
+</div>

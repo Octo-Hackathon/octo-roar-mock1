@@ -14,6 +14,10 @@ my18fApp.config(['$routeProvider',
         templateUrl: 'app/partials/create.html',
         controller: 'CreateCtrl'
       }).
+      when('/manage', {
+        templateUrl: 'app/partials/manage.html',
+        controller: 'ManageCtrl'
+      }).
       when('/view', {
         templateUrl: 'app/partials/view.html',
         controller: 'ViewCtrl'
