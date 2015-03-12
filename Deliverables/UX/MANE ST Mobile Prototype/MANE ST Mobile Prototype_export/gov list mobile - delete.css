@@ -96,7 +96,7 @@
     font-weight: normal;
     line-height: 1em;
     margin-left: 5px;
-    margin-top: 0px;
+    margin-top: 10px;
     clear: none;
     min-height: 0px;
     color: rgb(96, 125, 139);
@@ -106,19 +106,19 @@
     float: left;
     height: 20px;
     margin-left: 0%;
-    margin-top: 0px;
+    margin-top: 10px;
     clear: none;
     width: 3px;
     background-color: rgb(255, 152, 0);
     margin-right: 0%;
 }
 
-#input7 {
+#input5 {
     float: left;
     height: auto;
     font-size: 16px;
     margin-left: 0px;
-    margin-top: 394.625px;
+    margin-top: 10px;
     clear: both;
     width: 100%;
     margin-right: 0px;
@@ -141,7 +141,7 @@
     padding-left: 10px;
 }
 
-#input7:hover {
+#input5:hover {
     background-color: rgb(96, 125, 139);
 }
 
@@ -263,6 +263,22 @@
     padding-bottom: 10px;
     padding-left: 10px;
     background-color: rgb(96, 125, 139);
+    display: block;
+}
+
+#box4 {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 10px;
+    clear: both;
+    width: 100%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    background-color: rgb(232, 232, 232);
+    margin-right: 0%;
 }
 
 #text5 {
@@ -280,6 +296,7 @@
     color: rgb(96, 125, 139);
     margin-right: 0px;
     margin-bottom: 0px;
+    display: block;
 }
 
 #text6 {
@@ -327,7 +344,7 @@
     margin-left: 0px;
     margin-top: 10px;
     clear: both;
-    width: 152px;
+    width: 150px;
     margin-right: 0px;
     margin-bottom: 0px;
     border-top-left-radius: 0px;
@@ -346,6 +363,7 @@
     padding-bottom: 3px;
     padding-left: 3px;
     background-color: rgb(96, 125, 139);
+    display: block;
 }
 
 #input2:hover {
@@ -356,10 +374,10 @@
     float: left;
     height: auto;
     font-size: 16px;
-    margin-left: 5px;
+    margin-left: 4px;
     margin-top: 10px;
     clear: none;
-    width: 152px;
+    width: 150px;
     margin-right: 0px;
     margin-bottom: 0px;
     border-top-left-radius: 0px;
@@ -380,18 +398,6 @@
     background-color: rgb(255, 255, 255);
 }
 
-#box4 {
-    float: left;
-    height: auto;
-    margin-left: 0%;
-    margin-top: 20px;
-    clear: both;
-    width: 100%;
-    background-color: rgb(232, 232, 232);
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
-
 #box5 {
     float: left;
     height: auto;
@@ -399,10 +405,12 @@
     margin-top: 10px;
     clear: both;
     width: 100%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    background-color: rgb(232, 232, 232);
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
     margin-right: 0%;
+    background-color: rgb(232, 232, 232);
 }
 
 #text8 {
@@ -420,6 +428,7 @@
     color: rgb(96, 125, 139);
     margin-right: 0px;
     margin-bottom: 0px;
+    display: block;
 }
 
 #text9 {
@@ -467,7 +476,7 @@
     margin-left: 0px;
     margin-top: 10px;
     clear: both;
-    width: 152px;
+    width: 150px;
     margin-right: 0px;
     margin-bottom: 0px;
     border-top-left-radius: 0px;
@@ -486,6 +495,7 @@
     padding-bottom: 3px;
     padding-left: 3px;
     background-color: rgb(96, 125, 139);
+    display: block;
 }
 
 #input4:hover {
@@ -496,138 +506,10 @@
     float: left;
     height: auto;
     font-size: 16px;
-    margin-left: 5px;
+    margin-left: 4px;
     margin-top: 10px;
     clear: none;
-    width: 152px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    color: rgb(0, 0, 0);
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding-top: 3px;
-    padding-right: 3px;
-    padding-bottom: 3px;
-    padding-left: 3px;
-    background-color: rgb(255, 255, 255);
-}
-
-#box6 {
-    float: left;
-    height: auto;
-    margin-left: 0%;
-    margin-top: 10px;
-    clear: both;
-    width: 100%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    margin-right: 0%;
-    background-color: rgb(232, 232, 232);
-}
-
-#text11 {
-    float: left;
-    font-size: 16px;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: 600;
-    line-height: 1em;
-    margin-left: 0px;
-    margin-top: 20px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(96, 125, 139);
-    margin-right: 0px;
-    margin-bottom: 0px;
-}
-
-#text12 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 0px;
-    margin-top: 5px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(96, 125, 139);
-    margin-right: 0px;
-    margin-bottom: 0px;
-}
-
-#text13 {
-    float: left;
-    font-size: 16px;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: 600;
-    line-height: 1em;
-    margin-left: 0px;
-    margin-top: 5px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(0, 0, 0);
-    margin-right: 0px;
-    margin-bottom: 0px;
-}
-
-#input5:hover {
-    background-color: rgb(69, 90, 100);
-}
-
-#input5 {
-    float: left;
-    height: auto;
-    font-size: 16px;
-    margin-left: 0px;
-    margin-top: 10px;
-    clear: both;
-    width: 152px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    color: rgb(255, 255, 255);
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding-top: 3px;
-    padding-right: 3px;
-    padding-bottom: 3px;
-    padding-left: 3px;
-    background-color: rgb(96, 125, 139);
-}
-
-#input6:hover {
-    background-color: rgb(96, 125, 139);
-}
-
-#input6 {
-    float: left;
-    height: auto;
-    font-size: 16px;
-    margin-left: 5px;
-    margin-top: 10px;
-    clear: none;
-    width: 152px;
+    width: 150px;
     margin-right: 0px;
     margin-bottom: 0px;
     border-top-left-radius: 0px;
@@ -743,7 +625,7 @@
         font-weight: normal;
         line-height: 1em;
         margin-left: 5px;
-        margin-top: 0px;
+        margin-top: 10px;
         clear: none;
         min-height: 0px;
         color: rgb(96, 125, 139);
@@ -753,14 +635,14 @@
         float: left;
         height: 20px;
         margin-left: 0%;
-        margin-top: 0px;
+        margin-top: 10px;
         clear: none;
         width: 3px;
         background-color: rgb(255, 152, 0);
         margin-right: 0%;
     }
 
-    #input7 {
+    #input5 {
         float: left;
         height: auto;
         font-size: 16px;
@@ -786,9 +668,10 @@
         padding-right: 10px;
         padding-bottom: 10px;
         padding-left: 10px;
+        display: block;
     }
 
-    #input7:hover {
+    #input5:hover {
         background-color: rgb(96, 125, 139);
     }
 
@@ -910,6 +793,27 @@
         padding-bottom: 10px;
         padding-left: 10px;
         background-color: rgb(96, 125, 139);
+        display: block;
+    }
+
+    #box4 {
+        float: left;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 10px;
+        clear: both;
+        width: 100%;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        background-color: rgb(232, 232, 232);
+        margin-right: 0%;
+    }
+
+    #text5:hover {
+        color: rgb(69, 90, 100);
+        display: block;
     }
 
     #text5 {
@@ -927,6 +831,7 @@
         color: rgb(96, 125, 139);
         margin-right: 0px;
         margin-bottom: 0px;
+        display: block;
     }
 
     #textspan {
@@ -987,7 +892,7 @@
         margin-left: 0px;
         margin-top: 10px;
         clear: both;
-        width: 152px;
+        width: 150px;
         margin-right: 0px;
         margin-bottom: 0px;
         border-top-left-radius: 0px;
@@ -1006,6 +911,7 @@
         padding-bottom: 3px;
         padding-left: 3px;
         background-color: rgb(96, 125, 139);
+        display: block;
     }
 
     #input2:hover {
@@ -1016,10 +922,10 @@
         float: left;
         height: auto;
         font-size: 16px;
-        margin-left: 5px;
+        margin-left: 4px;
         margin-top: 10px;
         clear: none;
-        width: 152px;
+        width: 150px;
         margin-right: 0px;
         margin-bottom: 0px;
         border-top-left-radius: 0px;
@@ -1040,18 +946,6 @@
         background-color: rgb(255, 255, 255);
     }
 
-    #box4 {
-        float: left;
-        height: auto;
-        margin-left: 0%;
-        margin-top: 20px;
-        clear: both;
-        width: 100%;
-        background-color: rgb(232, 232, 232);
-        padding-bottom: 5px;
-        padding-top: 5px;
-    }
-
     #box5 {
         float: left;
         height: auto;
@@ -1059,10 +953,17 @@
         margin-top: 10px;
         clear: both;
         width: 100%;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        background-color: rgb(232, 232, 232);
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
         margin-right: 0%;
+        background-color: rgb(232, 232, 232);
+    }
+
+    #text8:hover {
+        color: rgb(69, 90, 100);
+        display: block;
     }
 
     #text8 {
@@ -1080,6 +981,7 @@
         color: rgb(96, 125, 139);
         margin-right: 0px;
         margin-bottom: 0px;
+        display: block;
     }
 
     #textspan2 {
@@ -1140,7 +1042,7 @@
         margin-left: 0px;
         margin-top: 10px;
         clear: both;
-        width: 152px;
+        width: 150px;
         margin-right: 0px;
         margin-bottom: 0px;
         border-top-left-radius: 0px;
@@ -1159,6 +1061,7 @@
         padding-bottom: 3px;
         padding-left: 3px;
         background-color: rgb(96, 125, 139);
+        display: block;
     }
 
     #input4:hover {
@@ -1169,151 +1072,10 @@
         float: left;
         height: auto;
         font-size: 16px;
-        margin-left: 5px;
+        margin-left: 4px;
         margin-top: 10px;
         clear: none;
-        width: 152px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        color: rgb(0, 0, 0);
-        border-top-style: none;
-        border-right-style: none;
-        border-bottom-style: none;
-        border-left-style: none;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        padding-top: 3px;
-        padding-right: 3px;
-        padding-bottom: 3px;
-        padding-left: 3px;
-        background-color: rgb(255, 255, 255);
-    }
-
-    #box6 {
-        float: left;
-        height: auto;
-        margin-left: 0%;
-        margin-top: 10px;
-        clear: both;
-        width: 100%;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        margin-right: 0%;
-        background-color: rgb(232, 232, 232);
-    }
-
-    #text11 {
-        float: left;
-        font-size: 16px;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: 600;
-        line-height: 1em;
-        margin-left: 0px;
-        margin-top: 0px;
-        clear: none;
-        min-height: 0px;
-        color: rgb(96, 125, 139);
-        margin-right: 0px;
-        margin-bottom: 0px;
-    }
-
-    #textspan4 {
-        float: none;
-        font-size: 14px;
-        line-height: 1em;
-    }
-
-    #text12 {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        margin-left: 0px;
-        margin-top: 5px;
-        clear: both;
-        min-height: 0px;
-        color: rgb(96, 125, 139);
-        margin-right: 0px;
-        margin-bottom: 0px;
-    }
-
-    #text13 {
-        float: left;
-        font-size: 16px;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: 600;
-        line-height: 1em;
-        margin-left: 0px;
-        margin-top: 5px;
-        clear: both;
-        min-height: 0px;
-        color: rgb(0, 0, 0);
-        margin-right: 0px;
-        margin-bottom: 0px;
-    }
-
-    #textspan5 {
-        float: none;
-        font-size: 1em;
-        line-height: 1em;
-        font-weight: 100;
-    }
-
-    #input5:hover {
-        background-color: rgb(69, 90, 100);
-    }
-
-    #input5 {
-        float: left;
-        height: auto;
-        font-size: 16px;
-        margin-left: 0px;
-        margin-top: 10px;
-        clear: both;
-        width: 152px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        color: rgb(255, 255, 255);
-        border-top-style: none;
-        border-right-style: none;
-        border-bottom-style: none;
-        border-left-style: none;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        padding-top: 3px;
-        padding-right: 3px;
-        padding-bottom: 3px;
-        padding-left: 3px;
-        background-color: rgb(96, 125, 139);
-    }
-
-    #input6:hover {
-        background-color: rgb(96, 125, 139);
-    }
-
-    #input6 {
-        float: left;
-        height: auto;
-        font-size: 16px;
-        margin-left: 5px;
-        margin-top: 10px;
-        clear: none;
-        width: 152px;
+        width: 150px;
         margin-right: 0px;
         margin-bottom: 0px;
         border-top-left-radius: 0px;

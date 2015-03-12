@@ -88,7 +88,6 @@
     margin-right: 0px;
     margin-bottom: 0px;
     color: rgb(0, 0, 0);
-    display: block;
 }
 
 #text3 {
@@ -124,7 +123,6 @@
     margin-right: 10px;
     margin-bottom: 0px;
     color: rgb(0, 0, 0);
-    display: block;
 }
 
 #text2:hover {
@@ -139,7 +137,7 @@
     color: rgb(255, 152, 0);
 }
 
-#box2 {
+#box3 {
     float: left;
     height: 720px;
     margin-left: 0px;
@@ -154,7 +152,7 @@
     padding-left: 5px;
 }
 
-#text5 {
+#text6 {
     float: left;
     font-size: 20px;
     width: auto;
@@ -169,7 +167,7 @@
     color: rgb(96, 125, 139);
 }
 
-#box3 {
+#box4 {
     float: left;
     height: 20px;
     margin-left: 0%;
@@ -180,7 +178,7 @@
     margin-right: 0%;
 }
 
-#box4 {
+#box5 {
     float: left;
     height: auto;
     margin-left: 0px;
@@ -196,12 +194,12 @@
     padding-left: 3px;
 }
 
-#text6:hover {
+#text7:hover {
     color: rgb(0, 0, 0);
     line-height: normal;
 }
 
-#text6 {
+#text7 {
     float: left;
     font-size: 12px;
     width: auto;
@@ -242,7 +240,7 @@
     width: 100%;
 }
 
-#text7 {
+#text8 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -270,7 +268,7 @@
     margin-right: 0%;
 }
 
-#text8 {
+#text9 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -321,7 +319,7 @@
     width: 100%;
 }
 
-#text9 {
+#text10 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -349,7 +347,7 @@
     margin-right: 0%;
 }
 
-#text10 {
+#text11 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -389,7 +387,7 @@
     margin-right: 0%;
 }
 
-#text11 {
+#text12 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -429,7 +427,7 @@
     margin-right: 0%;
 }
 
-#text12 {
+#text13 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -469,7 +467,7 @@
     margin-right: 0%;
 }
 
-#text13 {
+#text14 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -509,7 +507,7 @@
     margin-right: 0%;
 }
 
-#text14 {
+#text15 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -536,7 +534,7 @@
     width: 100%;
 }
 
-#input {
+#input2 {
     float: left;
     height: auto;
     font-size: 16px;
@@ -564,7 +562,106 @@
     padding-left: 10px;
 }
 
+#input2:hover {
+    background-color: rgb(96, 125, 139);
+}
+
+#box2 {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 72px;
+    clear: none;
+    width: 100%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-right: 0%;
+    display: block;
+    background-color: rgb(255, 214, 214);
+}
+
+#text5 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
 #input:hover {
+    background-color: rgb(204, 0, 0);
+}
+
+#input {
+    float: left;
+    height: auto;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 5px;
+    clear: both;
+    width: 155px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgb(255, 255, 255);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    display: block;
+    background-color: rgb(235, 0, 0);
+}
+
+#input1:hover {
+    background-color: rgb(69, 90, 100);
+}
+
+#input1 {
+    float: left;
+    height: auto;
+    font-size: 16px;
+    margin-left: 4px;
+    margin-top: 5px;
+    clear: none;
+    width: 155px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgb(255, 255, 255);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    display: block;
     background-color: rgb(96, 125, 139);
 }
 
@@ -654,7 +751,6 @@
         margin-right: 0px;
         margin-bottom: 0px;
         color: rgb(0, 0, 0);
-        display: block;
     }
 
     #text3 {
@@ -690,7 +786,6 @@
         margin-right: 10px;
         margin-bottom: 0px;
         color: rgb(0, 0, 0);
-        display: block;
     }
 
     #text2:hover {
@@ -705,12 +800,12 @@
         color: rgb(255, 152, 0);
     }
 
-    #box2 {
+    #box3 {
         float: left;
         height: 720px;
         margin-left: 0px;
-        margin-top: 72px;
-        clear: none;
+        margin-top: 0px;
+        clear: both;
         width: 100%;
         margin-right: 0px;
         margin-bottom: 0px;
@@ -720,7 +815,7 @@
         padding-left: 5px;
     }
 
-    #text5 {
+    #text6 {
         float: left;
         font-size: 20px;
         width: auto;
@@ -735,7 +830,7 @@
         color: rgb(96, 125, 139);
     }
 
-    #box3 {
+    #box4 {
         float: left;
         height: 20px;
         margin-left: 0%;
@@ -746,7 +841,7 @@
         margin-right: 0%;
     }
 
-    #box4 {
+    #box5 {
         float: left;
         height: auto;
         margin-left: 0px;
@@ -762,12 +857,12 @@
         padding-left: 3px;
     }
 
-    #text6:hover {
+    #text7:hover {
         color: rgb(0, 0, 0);
         line-height: normal;
     }
 
-    #text6 {
+    #text7 {
         float: left;
         font-size: 12px;
         width: auto;
@@ -808,7 +903,7 @@
         width: 100%;
     }
 
-    #text7 {
+    #text8 {
         float: none;
         font-size: 1em;
         width: auto;
@@ -836,7 +931,7 @@
         margin-right: 0%;
     }
 
-    #text8 {
+    #text9 {
         float: none;
         font-size: 1em;
         width: auto;
@@ -887,7 +982,7 @@
         width: 100%;
     }
 
-    #text9 {
+    #text10 {
         float: none;
         font-size: 1em;
         width: auto;
@@ -915,7 +1010,7 @@
         margin-right: 0%;
     }
 
-    #text10 {
+    #text11 {
         float: none;
         font-size: 1em;
         width: auto;
@@ -955,7 +1050,7 @@
         margin-right: 0%;
     }
 
-    #text11 {
+    #text12 {
         float: none;
         font-size: 1em;
         width: auto;
@@ -995,7 +1090,7 @@
         margin-right: 0%;
     }
 
-    #text12 {
+    #text13 {
         float: none;
         font-size: 1em;
         width: auto;
@@ -1035,7 +1130,7 @@
         margin-right: 0%;
     }
 
-    #text13 {
+    #text14 {
         float: none;
         font-size: 1em;
         width: auto;
@@ -1075,7 +1170,7 @@
         margin-right: 0%;
     }
 
-    #text14 {
+    #text15 {
         float: none;
         font-size: 1em;
         width: auto;
@@ -1102,7 +1197,7 @@
         width: 100%;
     }
 
-    #input {
+    #input2 {
         float: left;
         height: auto;
         font-size: 16px;
@@ -1130,7 +1225,106 @@
         padding-left: 10px;
     }
 
+    #input2:hover {
+        background-color: rgb(96, 125, 139);
+    }
+
+    #box2 {
+        float: left;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 72px;
+        clear: none;
+        width: 100%;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        margin-right: 0%;
+        display: block;
+        background-color: rgb(255, 214, 214);
+    }
+
+    #text5 {
+        float: left;
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: 500;
+        line-height: 1em;
+        margin-left: 0px;
+        margin-top: 0px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(0, 0, 0);
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
     #input:hover {
+        background-color: rgb(204, 0, 0);
+    }
+
+    #input {
+        float: left;
+        height: auto;
+        font-size: 16px;
+        margin-left: 0px;
+        margin-top: 5px;
+        clear: both;
+        width: 155px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        color: rgb(255, 255, 255);
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        display: block;
+        background-color: rgb(235, 0, 0);
+    }
+
+    #input1:hover {
+        background-color: rgb(69, 90, 100);
+    }
+
+    #input1 {
+        float: left;
+        height: auto;
+        font-size: 16px;
+        margin-left: 4px;
+        margin-top: 5px;
+        clear: none;
+        width: 155px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        color: rgb(255, 255, 255);
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        display: block;
         background-color: rgb(96, 125, 139);
     }
 }

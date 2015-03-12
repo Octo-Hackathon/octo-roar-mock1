@@ -10,11 +10,17 @@
 #box {
     float: left;
     height: auto;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: none;
     width: 100%;
+    margin-right: 0px;
+    margin-bottom: 0px;
     background-color: rgb(53, 53, 53);
-    padding: 10px 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
 
 #text {
@@ -25,10 +31,13 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: none;
     min-height: 0px;
     color: rgb(207, 216, 220);
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #text1 {
@@ -39,29 +48,44 @@
     text-align: right;
     font-weight: 100;
     line-height: 1em;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: none;
     min-height: 0px;
     color: rgb(207, 216, 220);
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #box1 {
     float: left;
     height: auto;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: both;
     width: 100%;
-    padding: 10px 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
     background-color: rgb(182, 182, 182);
 }
 
 #box2 {
     float: left;
     height: 720px;
-    margin: 158px 0px 0px;
+    margin-left: 0px;
+    margin-top: 158px;
     clear: none;
     width: 100%;
-    padding: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
 
 #text4 {
@@ -73,7 +97,7 @@
     font-weight: normal;
     line-height: 1em;
     margin-left: 5px;
-    margin-top: 0px;
+    margin-top: 10px;
     clear: none;
     min-height: 0px;
     color: rgb(96, 125, 139);
@@ -83,33 +107,42 @@
     float: left;
     height: 20px;
     margin-left: 0%;
-    margin-top: 0px;
+    margin-top: 10px;
     clear: none;
     width: 3px;
     background-color: rgb(255, 152, 0);
     margin-right: 0%;
 }
 
-#input7 {
+#input9 {
     float: left;
     height: auto;
     font-size: 16px;
-    margin: 394.625px 0px 0px;
+    margin-left: 0px;
+    margin-top: 10px;
     clear: both;
     width: 100%;
+    margin-right: 0px;
+    margin-bottom: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     background-color: rgb(255, 152, 0);
     color: rgb(255, 255, 255);
-    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
-#input7:hover {
+#input9:hover {
     background-color: rgb(96, 125, 139);
 }
 
@@ -128,7 +161,10 @@
 #textinput {
     float: left;
     height: auto;
-    padding: 0px 0px 0px 3px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 3px;
     font-size: 1em;
     display: inline-block;
     width: 100%;
@@ -146,7 +182,10 @@
     text-align: right;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em 0em 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+    padding-right: 0.5em;
     display: none;
     margin-left: 0%;
     margin-right: 0px;
@@ -159,16 +198,22 @@
     height: auto;
     display: block;
     text-align: left;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: none;
     width: 100%;
     min-height: auto;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #select {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: block;
     width: 100%;
@@ -182,7 +227,10 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0.2em 0em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
     display: none;
 }
 
@@ -194,222 +242,36 @@
     float: left;
     height: 39px;
     font-size: 16px;
-    margin: 10px 0px 0px;
+    margin-left: 0px;
+    margin-top: 10px;
     clear: both;
     width: 100%;
+    margin-right: 0px;
+    margin-bottom: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     color: rgb(255, 255, 255);
-    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     background-color: rgb(96, 125, 139);
-}
-
-#text5 {
-    float: left;
-    font-size: 16px;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: 600;
-    line-height: 1em;
-    margin: 20px 0px 0px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(96, 125, 139);
-}
-
-#text6 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin: 5px 0px 0px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(96, 125, 139);
-}
-
-#text7 {
-    float: left;
-    font-size: 16px;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: 600;
-    line-height: 1em;
-    margin: 5px 0px 0px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(0, 0, 0);
 }
 
 #input1:hover {
     background-color: rgb(69, 90, 100);
 }
 
-#input1 {
-    float: left;
-    height: auto;
-    font-size: 16px;
-    margin: 10px 0px 0px;
-    clear: both;
-    width: 150px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    color: rgb(255, 255, 255);
-    border-style: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding: 3px;
-    background-color: rgb(96, 125, 139);
-    display: block;
-}
-
 #input2:hover {
     background-color: rgb(96, 125, 139);
-}
-
-#input2 {
-    float: left;
-    height: auto;
-    font-size: 16px;
-    margin: 10px 0px 0px 4px;
-    clear: none;
-    width: 150px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    color: rgb(0, 0, 0);
-    border-style: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding: 3px;
-    background-color: rgb(255, 255, 255);
-    display: block;
-}
-
-#box4 {
-    float: left;
-    height: auto;
-    margin-left: 0%;
-    margin-top: 20px;
-    clear: both;
-    width: 100%;
-    background-color: rgb(232, 232, 232);
-    padding: 3px;
-}
-
-#box5 {
-    float: left;
-    height: auto;
-    margin-left: 0%;
-    margin-top: 10px;
-    clear: both;
-    width: 100%;
-    padding: 3px;
-    background-color: rgb(232, 232, 232);
-    margin-right: 0%;
-}
-
-#text8 {
-    float: left;
-    font-size: 16px;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: 600;
-    line-height: 1em;
-    margin: 20px 0px 0px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(96, 125, 139);
-    display: block;
-}
-
-#text9 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin: 5px 0px 0px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(96, 125, 139);
-}
-
-#text10 {
-    float: left;
-    font-size: 16px;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: 600;
-    line-height: 1em;
-    margin: 5px 0px 0px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(0, 0, 0);
-}
-
-#input3:hover {
-    background-color: rgb(69, 90, 100);
-}
-
-#input3 {
-    float: left;
-    height: auto;
-    font-size: 16px;
-    margin: 10px 0px 0px;
-    clear: both;
-    width: 150px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    color: rgb(255, 255, 255);
-    border-style: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding: 3px;
-    background-color: rgb(96, 125, 139);
-    display: block;
-}
-
-#input4:hover {
-    background-color: rgb(96, 125, 139);
-}
-
-#input4 {
-    float: left;
-    height: auto;
-    font-size: 16px;
-    margin: 10px 0px 0px 4px;
-    clear: none;
-    width: 150px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    color: rgb(0, 0, 0);
-    border-style: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding: 3px;
-    background-color: rgb(255, 255, 255);
 }
 
 #box6 {
@@ -419,9 +281,47 @@
     margin-top: 10px;
     clear: both;
     width: 100%;
-    padding: 3px;
-    margin-right: 0%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
     background-color: rgb(232, 232, 232);
+    margin-right: 0%;
+}
+
+#text9 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 20px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: block;
+}
+
+#text10 {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 5px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #text11 {
@@ -432,39 +332,13 @@
     text-align: left;
     font-weight: 600;
     line-height: 1em;
-    margin: 20px 0px 0px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(96, 125, 139);
-    display: block;
-}
-
-#text12 {
-    float: left;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin: 5px 0px 0px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(96, 125, 139);
-}
-
-#text13 {
-    float: left;
-    font-size: 16px;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: 600;
-    line-height: 1em;
-    margin: 5px 0px 0px;
+    margin-left: 0px;
+    margin-top: 5px;
     clear: both;
     min-height: 0px;
     color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #input5:hover {
@@ -475,20 +349,28 @@
     float: left;
     height: auto;
     font-size: 16px;
-    margin: 10px 0px 0px;
+    margin-left: 0px;
+    margin-top: 10px;
     clear: both;
     width: 150px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     color: rgb(255, 255, 255);
-    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    padding: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
     background-color: rgb(96, 125, 139);
-    display: block;
 }
 
 #input6:hover {
@@ -499,38 +381,395 @@
     float: left;
     height: auto;
     font-size: 16px;
-    margin: 10px 0px 0px 4px;
+    margin-left: 4px;
+    margin-top: 10px;
     clear: none;
     width: 150px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     color: rgb(0, 0, 0);
-    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    padding: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
     background-color: rgb(255, 255, 255);
 }
 
 #box7 {
     float: left;
-    height: 1000px;
-    margin: 28px 0px 0px;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 10px;
     clear: both;
-    width: 320px;
+    width: 100%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-right: 0%;
+    background-color: rgb(232, 232, 232);
+}
+
+#text12 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 20px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: block;
+}
+
+#text13 {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 5px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#text14 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 5px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#input7:hover {
+    background-color: rgb(69, 90, 100);
+}
+
+#input7 {
+    float: left;
+    height: auto;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 10px;
+    clear: both;
+    width: 150px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgb(255, 255, 255);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    background-color: rgb(96, 125, 139);
+}
+
+#input8:hover {
+    background-color: rgb(96, 125, 139);
+}
+
+#input8 {
+    float: left;
+    height: auto;
+    font-size: 16px;
+    margin-left: 4px;
+    margin-top: 10px;
+    clear: none;
+    width: 150px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgb(0, 0, 0);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+#box4 {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 20px;
+    clear: both;
+    width: 100%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    background-color: rgb(232, 232, 232);
+}
+
+#text5 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 20px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#text6 {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 5px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#text7 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 5px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#input1 {
+    float: left;
+    height: auto;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 10px;
+    clear: both;
+    width: 150px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgb(255, 255, 255);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    background-color: rgb(96, 125, 139);
+}
+
+#input2 {
+    float: left;
+    height: auto;
+    font-size: 16px;
+    margin-left: 4px;
+    margin-top: 10px;
+    clear: none;
+    width: 150px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgb(0, 0, 0);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+#box5 {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    background-color: rgb(255, 214, 214);
+    margin-right: 0%;
+}
+
+#text8 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#input3:hover {
+    background-color: rgb(204, 0, 0);
+}
+
+#input3 {
+    float: left;
+    height: auto;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 5px;
+    clear: both;
+    width: 150px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgb(255, 255, 255);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    display: block;
+    background-color: rgb(235, 0, 0);
+}
+
+#input4:hover {
+    background-color: rgb(69, 90, 100);
+}
+
+#input4 {
+    float: left;
+    height: auto;
+    font-size: 16px;
+    margin-left: 4px;
+    margin-top: 5px;
+    clear: none;
+    width: 150px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgb(255, 255, 255);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    display: block;
+    background-color: rgb(96, 125, 139);
 }
 
 @media only screen and (max-width: 320px) {
     #box {
         float: left;
         height: auto;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         width: 100%;
+        margin-right: 0px;
+        margin-bottom: 0px;
         background-color: rgb(53, 53, 53);
-        padding: 10px 5px;
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        padding-left: 5px;
         position: fixed;
     }
 
@@ -542,10 +781,13 @@
         text-align: left;
         font-weight: normal;
         line-height: 1em;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         min-height: 0px;
         color: rgb(207, 216, 220);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #text1 {
@@ -556,19 +798,28 @@
         text-align: right;
         font-weight: 100;
         line-height: 1em;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         min-height: 0px;
         color: rgb(207, 216, 220);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #box1 {
         float: left;
         height: auto;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         width: 100%;
-        padding: 10px 5px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        padding-left: 5px;
         background-color: rgb(182, 182, 182);
         position: fixed;
         top: 36px;
@@ -578,10 +829,16 @@
     #box2 {
         float: left;
         height: auto;
-        margin: 158px 0px 0px;
+        margin-left: 0px;
+        margin-top: 158px;
         clear: none;
         width: 100%;
-        padding: 5px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
     }
 
     #text4 {
@@ -610,27 +867,36 @@
         margin-right: 0%;
     }
 
-    #input7 {
+    #input9 {
         float: left;
         height: auto;
         font-size: 16px;
-        margin: 10px 0px 0px;
+        margin-left: 0px;
+        margin-top: 10px;
         clear: both;
         width: 100%;
+        margin-right: 0px;
+        margin-bottom: 0px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
         background-color: rgb(255, 152, 0);
         color: rgb(255, 255, 255);
-        border-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
         -webkit-box-shadow: none;
         box-shadow: none;
-        padding: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
         display: block;
     }
 
-    #input7:hover {
+    #input9:hover {
         background-color: rgb(96, 125, 139);
     }
 
@@ -649,7 +915,10 @@
     #textinput {
         float: left;
         height: auto;
-        padding: 0px 0px 0px 3px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 3px;
         font-size: 1em;
         display: inline-block;
         width: 100%;
@@ -667,7 +936,10 @@
         text-align: right;
         font-weight: normal;
         line-height: 1em;
-        padding: 0em 0.5em 0em 0em;
+        padding-top: 0em;
+        padding-bottom: 0em;
+        padding-left: 0em;
+        padding-right: 0.5em;
         display: none;
         margin-left: 0%;
         margin-right: 0px;
@@ -680,16 +952,22 @@
         height: auto;
         display: block;
         text-align: left;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         width: 100%;
         min-height: auto;
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #select {
         float: none;
         height: auto;
-        padding: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
         font-size: 1em;
         display: block;
         width: 100%;
@@ -703,7 +981,10 @@
         text-align: left;
         font-weight: normal;
         line-height: 1em;
-        padding: 0.2em 0em;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        padding-left: 0em;
+        padding-right: 0em;
         display: none;
     }
 
@@ -715,19 +996,353 @@
         float: left;
         height: 39px;
         font-size: 16px;
-        margin: 10px 0px 0px;
+        margin-left: 0px;
+        margin-top: 10px;
         clear: both;
         width: 100%;
+        margin-right: 0px;
+        margin-bottom: 0px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
         color: rgb(255, 255, 255);
-        border-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
         -webkit-box-shadow: none;
         box-shadow: none;
-        padding: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
         background-color: rgb(96, 125, 139);
+    }
+
+    #input1:hover {
+        background-color: rgb(69, 90, 100);
+    }
+
+    #input2:hover {
+        background-color: rgb(96, 125, 139);
+    }
+
+    #text5:hover {
+        color: rgb(69, 90, 100);
+        display: block;
+    }
+
+    #box6 {
+        float: left;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 10px;
+        clear: both;
+        width: 100%;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        background-color: rgb(232, 232, 232);
+        margin-right: 0%;
+    }
+
+    #text9:hover {
+        color: rgb(69, 90, 100);
+        display: block;
+    }
+
+    #text9 {
+        float: left;
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: 600;
+        line-height: 1em;
+        margin-left: 0px;
+        margin-top: 0px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
+        display: block;
+    }
+
+    #textspan2 {
+        float: none;
+        font-size: 14px;
+        line-height: 1em;
+    }
+
+    #text10 {
+        float: left;
+        font-size: 1em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 0px;
+        margin-top: 5px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #text11 {
+        float: left;
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: 600;
+        line-height: 1em;
+        margin-left: 0px;
+        margin-top: 5px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(0, 0, 0);
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #textspan3 {
+        float: none;
+        font-size: 1em;
+        line-height: 1em;
+        font-weight: 100;
+    }
+
+    #input5:hover {
+        background-color: rgb(69, 90, 100);
+    }
+
+    #input5 {
+        float: left;
+        height: auto;
+        font-size: 16px;
+        margin-left: 0px;
+        margin-top: 10px;
+        clear: both;
+        width: 150px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        color: rgb(255, 255, 255);
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        background-color: rgb(96, 125, 139);
+    }
+
+    #input6:hover {
+        background-color: rgb(96, 125, 139);
+    }
+
+    #input6 {
+        float: left;
+        height: auto;
+        font-size: 16px;
+        margin-left: 4px;
+        margin-top: 10px;
+        clear: none;
+        width: 150px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        color: rgb(0, 0, 0);
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #box7 {
+        float: left;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 10px;
+        clear: both;
+        width: 100%;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        margin-right: 0%;
+        background-color: rgb(232, 232, 232);
+    }
+
+    #text12:hover {
+        color: rgb(69, 90, 100);
+        display: block;
+    }
+
+    #text12 {
+        float: left;
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: 600;
+        line-height: 1em;
+        margin-left: 0px;
+        margin-top: 0px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
+        display: block;
+    }
+
+    #textspan4 {
+        float: none;
+        font-size: 14px;
+        line-height: 1em;
+    }
+
+    #text13 {
+        float: left;
+        font-size: 1em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 0px;
+        margin-top: 5px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #text14 {
+        float: left;
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: 600;
+        line-height: 1em;
+        margin-left: 0px;
+        margin-top: 5px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(0, 0, 0);
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #textspan5 {
+        float: none;
+        font-size: 1em;
+        line-height: 1em;
+        font-weight: 100;
+    }
+
+    #input7:hover {
+        background-color: rgb(69, 90, 100);
+    }
+
+    #input7 {
+        float: left;
+        height: auto;
+        font-size: 16px;
+        margin-left: 0px;
+        margin-top: 10px;
+        clear: both;
+        width: 150px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        color: rgb(255, 255, 255);
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        background-color: rgb(96, 125, 139);
+    }
+
+    #input8:hover {
+        background-color: rgb(96, 125, 139);
+    }
+
+    #input8 {
+        float: left;
+        height: auto;
+        font-size: 16px;
+        margin-left: 4px;
+        margin-top: 10px;
+        clear: none;
+        width: 150px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        color: rgb(0, 0, 0);
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #box4 {
+        float: left;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 20px;
+        clear: both;
+        width: 100%;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        background-color: rgb(232, 232, 232);
     }
 
     #text5 {
@@ -738,10 +1353,13 @@
         text-align: left;
         font-weight: 600;
         line-height: 1em;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         min-height: 0px;
         color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #textspan {
@@ -758,10 +1376,13 @@
         text-align: left;
         font-weight: normal;
         line-height: 1em;
-        margin: 5px 0px 0px;
+        margin-left: 0px;
+        margin-top: 5px;
         clear: both;
         min-height: 0px;
         color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #text7 {
@@ -772,10 +1393,13 @@
         text-align: left;
         font-weight: 600;
         line-height: 1em;
-        margin: 5px 0px 0px;
+        margin-left: 0px;
+        margin-top: 5px;
         clear: both;
         min-height: 0px;
         color: rgb(0, 0, 0);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #textspan1 {
@@ -785,31 +1409,31 @@
         font-weight: 100;
     }
 
-    #input1:hover {
-        background-color: rgb(69, 90, 100);
-    }
-
     #input1 {
         float: left;
         height: auto;
         font-size: 16px;
-        margin: 10px 0px 0px;
+        margin-left: 0px;
+        margin-top: 10px;
         clear: both;
         width: 150px;
+        margin-right: 0px;
+        margin-bottom: 0px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
         color: rgb(255, 255, 255);
-        border-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
         -webkit-box-shadow: none;
         box-shadow: none;
-        padding: 3px;
-        background-color: rgb(96, 125, 139);
-        display: block;
-    }
-
-    #input2:hover {
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
         background-color: rgb(96, 125, 139);
     }
 
@@ -817,53 +1441,43 @@
         float: left;
         height: auto;
         font-size: 16px;
-        margin: 10px 0px 0px 4px;
+        margin-left: 4px;
+        margin-top: 10px;
         clear: none;
         width: 150px;
+        margin-right: 0px;
+        margin-bottom: 0px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
         color: rgb(0, 0, 0);
-        border-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
         -webkit-box-shadow: none;
         box-shadow: none;
-        padding: 3px;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
         background-color: rgb(255, 255, 255);
-        display: block;
-    }
-
-    #box4 {
-        float: left;
-        height: auto;
-        margin-left: 0%;
-        margin-top: 20px;
-        clear: both;
-        width: 100%;
-        background-color: rgb(232, 232, 232);
-        padding: 3px;
-    }
-
-    #text5:hover {
-        color: rgb(69, 90, 100);
-        display: block;
     }
 
     #box5 {
         float: left;
         height: auto;
         margin-left: 0%;
-        margin-top: 10px;
+        margin-top: 0px;
         clear: both;
         width: 100%;
-        padding: 3px;
-        background-color: rgb(232, 232, 232);
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        background-color: rgb(255, 214, 214);
         margin-right: 0%;
-    }
-
-    #text8:hover {
-        color: rgb(69, 90, 100);
-        display: block;
     }
 
     #text8 {
@@ -872,229 +1486,81 @@
         width: auto;
         height: auto;
         text-align: left;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 1em;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         min-height: 0px;
-        color: rgb(96, 125, 139);
-        display: block;
-    }
-
-    #textspan2 {
-        float: none;
-        font-size: 14px;
-        line-height: 1em;
-    }
-
-    #text9 {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        margin: 5px 0px 0px;
-        clear: both;
-        min-height: 0px;
-        color: rgb(96, 125, 139);
-    }
-
-    #text10 {
-        float: left;
-        font-size: 16px;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: 600;
-        line-height: 1em;
-        margin: 5px 0px 0px;
-        clear: both;
-        min-height: 0px;
         color: rgb(0, 0, 0);
-    }
-
-    #textspan3 {
-        float: none;
-        font-size: 1em;
-        line-height: 1em;
-        font-weight: 100;
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #input3:hover {
-        background-color: rgb(69, 90, 100);
+        background-color: rgb(204, 0, 0);
     }
 
     #input3 {
         float: left;
         height: auto;
         font-size: 16px;
-        margin: 10px 0px 0px;
+        margin-left: 0px;
+        margin-top: 5px;
         clear: both;
         width: 150px;
+        margin-right: 0px;
+        margin-bottom: 0px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
         color: rgb(255, 255, 255);
-        border-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
         -webkit-box-shadow: none;
         box-shadow: none;
-        padding: 3px;
-        background-color: rgb(96, 125, 139);
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
         display: block;
+        background-color: rgb(235, 0, 0);
     }
 
     #input4:hover {
-        background-color: rgb(96, 125, 139);
+        background-color: rgb(69, 90, 100);
     }
 
     #input4 {
         float: left;
         height: auto;
         font-size: 16px;
-        margin: 10px 0px 0px 4px;
+        margin-left: 4px;
+        margin-top: 5px;
         clear: none;
         width: 150px;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        color: rgb(0, 0, 0);
-        border-style: none;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        padding: 3px;
-        background-color: rgb(255, 255, 255);
-    }
-
-    #box6 {
-        float: left;
-        height: auto;
-        margin-left: 0%;
-        margin-top: 10px;
-        clear: both;
-        width: 100%;
-        padding: 3px;
-        margin-right: 0%;
-        background-color: rgb(232, 232, 232);
-    }
-
-    #text11:hover {
-        color: rgb(69, 90, 100);
-        display: block;
-    }
-
-    #text11 {
-        float: left;
-        font-size: 16px;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: 600;
-        line-height: 1em;
-        margin: 0px;
-        clear: none;
-        min-height: 0px;
-        color: rgb(96, 125, 139);
-        display: block;
-    }
-
-    #textspan4 {
-        float: none;
-        font-size: 14px;
-        line-height: 1em;
-    }
-
-    #text12 {
-        float: left;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        margin: 5px 0px 0px;
-        clear: both;
-        min-height: 0px;
-        color: rgb(96, 125, 139);
-    }
-
-    #text13 {
-        float: left;
-        font-size: 16px;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: 600;
-        line-height: 1em;
-        margin: 5px 0px 0px;
-        clear: both;
-        min-height: 0px;
-        color: rgb(0, 0, 0);
-    }
-
-    #textspan5 {
-        float: none;
-        font-size: 1em;
-        line-height: 1em;
-        font-weight: 100;
-    }
-
-    #input5:hover {
-        background-color: rgb(69, 90, 100);
-    }
-
-    #input5 {
-        float: left;
-        height: auto;
-        font-size: 16px;
-        margin: 10px 0px 0px;
-        clear: both;
-        width: 150px;
+        margin-right: 0px;
+        margin-bottom: 0px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
         color: rgb(255, 255, 255);
-        border-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
         -webkit-box-shadow: none;
         box-shadow: none;
-        padding: 3px;
-        background-color: rgb(96, 125, 139);
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
         display: block;
-    }
-
-    #input6:hover {
         background-color: rgb(96, 125, 139);
-    }
-
-    #input6 {
-        float: left;
-        height: auto;
-        font-size: 16px;
-        margin: 10px 0px 0px 4px;
-        clear: none;
-        width: 150px;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        color: rgb(0, 0, 0);
-        border-style: none;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        padding: 3px;
-        background-color: rgb(255, 255, 255);
-    }
-
-    #box7 {
-        float: left;
-        height: 1000px;
-        margin: 28px 0px 0px;
-        clear: both;
-        width: 320px;
     }
 }
 

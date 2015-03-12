@@ -10,11 +10,17 @@
 #box1 {
     float: left;
     height: auto;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: none;
     width: 100%;
+    margin-right: 0px;
+    margin-bottom: 0px;
     background-color: rgb(53, 53, 53);
-    padding: 10px 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
 
 #text3 {
@@ -25,10 +31,13 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: none;
     min-height: 0px;
     color: rgb(207, 216, 220);
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #text4 {
@@ -39,19 +48,28 @@
     text-align: right;
     font-weight: 100;
     line-height: 1em;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: none;
     min-height: 0px;
     color: rgb(207, 216, 220);
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #box2 {
     float: left;
-    height: 720px;
-    margin: 72px 0px 0px;
+    height: 569px;
+    margin-left: 0px;
+    margin-top: 72px;
     clear: none;
     width: 100%;
-    padding: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
 
 #text5 {
@@ -63,7 +81,7 @@
     font-weight: normal;
     line-height: 1em;
     margin-left: 5px;
-    margin-top: 0px;
+    margin-top: 10px;
     clear: none;
     min-height: 0px;
     color: rgb(96, 125, 139);
@@ -75,7 +93,7 @@
     float: left;
     height: 40px;
     margin-left: 0%;
-    margin-top: 0px;
+    margin-top: 10px;
     clear: none;
     width: 3px;
     background-color: rgb(255, 152, 0);
@@ -90,10 +108,13 @@
     text-align: left;
     font-weight: 600;
     line-height: 1em;
-    margin: 10px 0px 0px;
+    margin-left: 0px;
+    margin-top: 10px;
     clear: both;
     min-height: 0px;
     color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #text7 {
@@ -104,10 +125,13 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin: 5px 0px 0px;
+    margin-left: 0px;
+    margin-top: 5px;
     clear: both;
     min-height: 0px;
     color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #text8 {
@@ -118,19 +142,28 @@
     text-align: left;
     font-weight: 600;
     line-height: 1em;
-    margin: 5px 0px 0px;
+    margin-left: 0px;
+    margin-top: 5px;
     clear: both;
     min-height: 0px;
     color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #box {
     float: left;
     height: auto;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: both;
     width: 100%;
-    padding: 10px 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
     display: block;
     background-color: rgb(182, 182, 182);
 }
@@ -147,9 +180,12 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: none;
     min-height: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     color: rgb(0, 0, 0);
 }
 
@@ -165,9 +201,12 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: none;
     min-height: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     color: rgb(0, 0, 0);
 }
 
@@ -183,9 +222,12 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin: 0px 10px 0px 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     clear: none;
     min-height: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
     color: rgb(0, 0, 0);
 }
 
@@ -197,10 +239,13 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin: 5px 0px 0px;
+    margin-left: 0px;
+    margin-top: 5px;
     clear: both;
     min-height: 0px;
     color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #text10 {
@@ -211,21 +256,64 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin: 5px 0px 0px;
+    margin-left: 0px;
+    margin-top: 5px;
     clear: both;
     min-height: 0px;
     color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#text11 {
+    float: left;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 5px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#text12 {
+    float: left;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 5px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 320px) {
     #box1 {
         float: left;
         height: auto;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         width: 100%;
+        margin-right: 0px;
+        margin-bottom: 0px;
         background-color: rgb(53, 53, 53);
-        padding: 10px 5px;
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        padding-left: 5px;
         position: fixed;
     }
 
@@ -237,10 +325,13 @@
         text-align: left;
         font-weight: normal;
         line-height: 1em;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         min-height: 0px;
         color: rgb(207, 216, 220);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #text4 {
@@ -251,19 +342,28 @@
         text-align: right;
         font-weight: 100;
         line-height: 1em;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         min-height: 0px;
         color: rgb(207, 216, 220);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #box2 {
         float: left;
-        height: auto;
-        margin: 72px 0px 0px;
+        height: 569px;
+        margin-left: 0px;
+        margin-top: 72px;
         clear: none;
         width: 100%;
-        padding: 5px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
     }
 
     #text5 {
@@ -275,7 +375,7 @@
         font-weight: normal;
         line-height: 1em;
         margin-left: 5px;
-        margin-top: 0px;
+        margin-top: 10px;
         clear: none;
         min-height: 0px;
         color: rgb(96, 125, 139);
@@ -287,7 +387,7 @@
         float: left;
         height: 40px;
         margin-left: 0%;
-        margin-top: 0px;
+        margin-top: 10px;
         clear: none;
         width: 3px;
         background-color: rgb(255, 152, 0);
@@ -302,16 +402,20 @@
         text-align: left;
         font-weight: 600;
         line-height: 1em;
-        margin: 10px 0px 0px;
+        margin-left: 0px;
+        margin-top: 10px;
         clear: both;
         min-height: 0px;
         color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #textspan {
         float: none;
         font-size: 14px;
         line-height: 1em;
+        font-weight: 500;
     }
 
     #text7 {
@@ -322,10 +426,13 @@
         text-align: left;
         font-weight: normal;
         line-height: 1em;
-        margin: 5px 0px 0px;
+        margin-left: 0px;
+        margin-top: 5px;
         clear: both;
         min-height: 0px;
         color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #text8 {
@@ -336,10 +443,13 @@
         text-align: left;
         font-weight: 600;
         line-height: 1em;
-        margin: 5px 0px 0px;
+        margin-left: 0px;
+        margin-top: 5px;
         clear: both;
         min-height: 0px;
         color: rgb(0, 0, 0);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #textspan1 {
@@ -352,10 +462,16 @@
     #box {
         float: left;
         height: auto;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         width: 100%;
-        padding: 10px 5px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        padding-left: 5px;
         position: fixed;
         top: 36px;
         left: 0%;
@@ -375,9 +491,12 @@
         text-align: left;
         font-weight: normal;
         line-height: 1em;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         min-height: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
         color: rgb(0, 0, 0);
     }
 
@@ -393,9 +512,12 @@
         text-align: left;
         font-weight: normal;
         line-height: 1em;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         min-height: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
         color: rgb(0, 0, 0);
     }
 
@@ -411,9 +533,12 @@
         text-align: left;
         font-weight: normal;
         line-height: 1em;
-        margin: 0px 10px 0px 0px;
+        margin-left: 0px;
+        margin-top: 0px;
         clear: none;
         min-height: 0px;
+        margin-right: 10px;
+        margin-bottom: 0px;
         color: rgb(0, 0, 0);
     }
 
@@ -425,10 +550,13 @@
         text-align: left;
         font-weight: normal;
         line-height: 1em;
-        margin: 5px 0px 0px;
+        margin-left: 0px;
+        margin-top: 5px;
         clear: both;
         min-height: 0px;
         color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     #text10 {
@@ -439,10 +567,47 @@
         text-align: left;
         font-weight: normal;
         line-height: 1em;
-        margin: 5px 0px 0px;
+        margin-left: 0px;
+        margin-top: 5px;
         clear: both;
         min-height: 0px;
         color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #text11 {
+        float: left;
+        font-size: 1em;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 0px;
+        margin-top: 5px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #text12 {
+        float: left;
+        font-size: 1em;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 0px;
+        margin-top: 5px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 }
 

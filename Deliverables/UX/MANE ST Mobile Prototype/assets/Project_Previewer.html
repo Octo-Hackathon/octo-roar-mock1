@@ -134,9 +134,13 @@
         var pageNames = [
         
             "gov list mobile", 
+            "gov list mobile - delete validation", 
+            "gov list mobile - delete", 
             "gov details mobile", 
             "gov create mobile", 
-            "gov edit mobile"
+            "gov edit mobile", 
+            "gov edit mobile - saved validation", 
+            "gov edit mobile - delete validation"
         ];
         
         if (regions_enabled_in_reflow && is_previewing_in_reflow && is_chrome && !has_regions) {
@@ -173,7 +177,7 @@
         };
         
         var relaunchChrome = function () {
-            var previewId = "reflow-efe626a5-8ce4-1753-6225-2ddbbb6fefc7",
+            var previewId = "reflow-36fee5f5-f918-6688-8b52-95e807775e4a",
                 url = window.location.origin + "/reflow?command=relaunch.preview.chrome_experimental&previewID=" + previewId,
                 request = new XMLHttpRequest();
             
@@ -198,11 +202,19 @@
            
            <option>Gov List Mobile</option>
            
+           <option>Gov List Mobile - Delete Validation</option>
+           
+           <option>Gov List Mobile - Delete</option>
+           
            <option>Gov Details Mobile</option>
            
            <option>Gov Create Mobile</option>
            
            <option>Gov Edit Mobile</option>
+           
+           <option>Gov Edit Mobile - Saved Validation</option>
+           
+           <option>Gov Edit Mobile - Delete Validation</option>
            
        </select>
     </div>

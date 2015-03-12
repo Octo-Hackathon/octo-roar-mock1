@@ -87,6 +87,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
     color: rgb(0, 0, 0);
+    display: block;
 }
 
 #text3 {
@@ -104,6 +105,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
     color: rgb(0, 0, 0);
+    display: block;
 }
 
 #text4 {
@@ -121,6 +123,7 @@
     margin-right: 10px;
     margin-bottom: 0px;
     color: rgb(0, 0, 0);
+    display: block;
 }
 
 #text2:hover {
@@ -159,7 +162,7 @@
     font-weight: normal;
     line-height: 1em;
     margin-left: 5px;
-    margin-top: 0px;
+    margin-top: 10px;
     clear: none;
     min-height: 0px;
     color: rgb(96, 125, 139);
@@ -169,7 +172,7 @@
     float: left;
     height: 20px;
     margin-left: 0%;
-    margin-top: 0px;
+    margin-top: 10px;
     clear: none;
     width: 3px;
     background-color: rgb(255, 152, 0);
@@ -650,6 +653,7 @@
         margin-right: 0px;
         margin-bottom: 0px;
         color: rgb(0, 0, 0);
+        display: block;
     }
 
     #text3 {
@@ -667,6 +671,7 @@
         margin-right: 0px;
         margin-bottom: 0px;
         color: rgb(0, 0, 0);
+        display: block;
     }
 
     #text4 {
@@ -684,6 +689,7 @@
         margin-right: 10px;
         margin-bottom: 0px;
         color: rgb(0, 0, 0);
+        display: block;
     }
 
     #text2:hover {
@@ -722,7 +728,7 @@
         font-weight: normal;
         line-height: 1em;
         margin-left: 5px;
-        margin-top: 0px;
+        margin-top: 10px;
         clear: none;
         min-height: 0px;
         color: rgb(96, 125, 139);
@@ -732,7 +738,7 @@
         float: left;
         height: 20px;
         margin-left: 0%;
-        margin-top: 0px;
+        margin-top: 10px;
         clear: none;
         width: 3px;
         background-color: rgb(255, 152, 0);

@@ -12,7 +12,7 @@
     height: auto;
     margin: 0px;
     clear: none;
-    width: 100%;
+    width: 320px;
     background-color: rgb(53, 53, 53);
     padding: 10px 5px;
 }
@@ -50,7 +50,7 @@
     height: auto;
     margin: 0px;
     clear: both;
-    width: 100%;
+    width: 320px;
     padding: 10px 5px;
     background-color: rgb(182, 182, 182);
 }
@@ -60,7 +60,7 @@
     height: 720px;
     margin: 158px 0px 0px;
     clear: none;
-    width: 100%;
+    width: 320px;
     padding: 5px;
 }
 
@@ -514,21 +514,13 @@
     background-color: rgb(255, 255, 255);
 }
 
-#box7 {
-    float: left;
-    height: 1000px;
-    margin: 28px 0px 0px;
-    clear: both;
-    width: 320px;
-}
-
 @media only screen and (max-width: 320px) {
     #box {
         float: left;
         height: auto;
         margin: 0px;
         clear: none;
-        width: 100%;
+        width: 320px;
         background-color: rgb(53, 53, 53);
         padding: 10px 5px;
         position: fixed;
@@ -567,7 +559,7 @@
         height: auto;
         margin: 0px;
         clear: none;
-        width: 100%;
+        width: 320px;
         padding: 10px 5px;
         background-color: rgb(182, 182, 182);
         position: fixed;
@@ -580,7 +572,7 @@
         height: auto;
         margin: 158px 0px 0px;
         clear: none;
-        width: 100%;
+        width: 320px;
         padding: 5px;
     }
 
@@ -1087,14 +1079,6 @@
         box-shadow: none;
         padding: 3px;
         background-color: rgb(255, 255, 255);
-    }
-
-    #box7 {
-        float: left;
-        height: 1000px;
-        margin: 28px 0px 0px;
-        clear: both;
-        width: 320px;
     }
 }
 
