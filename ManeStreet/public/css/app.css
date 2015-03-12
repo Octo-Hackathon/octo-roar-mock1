@@ -34,7 +34,7 @@ body{
 
 .navbar-mane {
 	background-color:#455A64;
-	color:#B6B6B6;
+	color:#FFF;
 }
 
 /* Links & Buttons */
@@ -48,11 +48,11 @@ body{
 }
 .btn-mane-primary {
 	background-color:#FF9800;
-	color:#B6B6B6;
+	color:#FFF;
 }
 .btn-mane:hover, .btn-mane-primary:hover {
 	background-color:#607D8B;
-	color:#B6B6B6;
+	color:#FFF;
 }
 
 a {
