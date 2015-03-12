@@ -26,6 +26,7 @@ body{
 	border-left:5px solid #FF9800;
 	color: #607D8B;
 	padding-left:10px;
+	font-weight: 500;
 }
 
 .padding {
@@ -41,6 +42,7 @@ body{
 .btn {
 	border:none;
 	border-radius:0;
+	font-weight: 500;
 }
 .btn-mane {
 	background-color:transparent;
