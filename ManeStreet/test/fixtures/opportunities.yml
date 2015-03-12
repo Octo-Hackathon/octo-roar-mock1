@@ -25,3 +25,16 @@ two:
   placeofperform: NIH
   primaypoc: Smithhoe
   user_id: 2
+  
+three:
+  title: Test Title
+  opportunitytype: Vendor
+  description: 
+  setaside: test2 aside
+  publishdate: 2015-03-11 22:38:19
+  responseduedate: 2015-03-11
+  status: Draft
+  buyername: NHLBI
+  placeofperform: NIH
+  primaypoc: Smithhoe
+  user_id: 2
