@@ -27,6 +27,7 @@ Light Grey	#B6B6B6
 /* Links & Buttons */
 .btn {
 	border:none;
+	border-radius:0;
 }
 .btn-mane {
 	background-color:transparent;
