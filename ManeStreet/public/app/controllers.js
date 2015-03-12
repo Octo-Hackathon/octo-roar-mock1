@@ -124,4 +124,3 @@ my18fControllers.controller('CreateCtrl', function($scope, $http) {
 
   }
 );
-
