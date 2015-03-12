@@ -36,6 +36,12 @@ body{
 .navbar-mane {
 	background-color:#455A64;
 	color:#FFF;
+	font-weight: 700;
+	border-radius:0;
+}
+
+.navbar-mane a {
+	color:#FFF;
 }
 
 /* Links & Buttons */
@@ -47,6 +53,10 @@ body{
 .btn-mane {
 	background-color:transparent;
 	color:#607D8B;
+}
+.btn-mane-default {
+	background-color:#607D8B;
+	color:#FFF;
 }
 .btn-mane-primary {
 	background-color:#FF9800;
