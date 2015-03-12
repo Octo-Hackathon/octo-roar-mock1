@@ -14,7 +14,7 @@ class OpportunitiesControllerTest < ActionController::TestCase
       placeofperform: 'NIH',
       primaypoc: 'Joe trump',
       user_id: 1,
-      
+       
     }
   end
 
