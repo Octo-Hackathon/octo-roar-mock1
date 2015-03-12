@@ -1,0 +1,60 @@
+<div class="container mane-content">
+	<div class="col_lg_12">
+		<h2 class="page-heading">{{opp.title}} <a href="/" alt="back to listing" class="mane-link pull-right"><span class="glyphicon glyphicon-menu-left"></span> Back to Listing</a></h2>
+		<form ng-controller="EditCtrl" ng-submit="submit()">
+			<div class="form-group">
+				<div class="row padding">
+					<div class="col-lg-12">
+						<label for="title">Title</label>
+						<input class="form-control" type="text" name="title" ng-model="opp.title" id="title" value="{{opp.title}}" required>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-lg-12">
+						<label for="desc">Description</label>
+						<textarea class="form-control" name="description" ng-model="opp.description" id="description" required>{{opp.description}}</textarea>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-md-4">
+						<label for="duedate">Response Due Date</label>
+						<input class="form-control" type="text" name="duedate" ng-model="opp.duedate" value="{{opp.duedate}}" id="duedate">
+					</div>
+					<div class="col-md-4">
+						<label for="opportunitytype">Type</label>
+						<input class="form-control" type="text" name="type" ng-model="opp.opportunitytype" id="opportunitytype" value="{{opp.opportunitytype}}" required>
+					</div>
+					<div class="col-md-4">
+						<label for="setaside">Set Aside</label>
+						<input class="form-control" type="text" name="set_aside" ng-model="opp.setaside" id="setaside" value="{{opp.setaside}}">
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-md-6">
+						<label for="buyername">Buyer Name</label>
+						<input class="form-control" type="text" name="buyername" ng-model="opp.buyername" id="buyername" value="{{opp.buyername}}" required>
+					</div>
+					<div class="col-md-6">
+						<label for="primaypoc">Primary POC</label>
+						<input class="form-control" type="text" name="poc" ng-model="opp.primaypoc" id="primaypoc" value="{{opp.primaypoc}}" required>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-md-6">
+						<label for="placeofperform">Place of Performance</label>
+						<input class="form-control" type="text" name="place" ng-model="opp.placeofperform" id="placeofperform" value="{{opp.placeofperform}}" required>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-lg-12">
+						<button role="button" class="btn btn-mane" ng-click="submit()">Save</button>
+						<button role="button" class="btn btn-mane-primary" ng-click="publish()">Publish</button>
+
+						<a href="#" class="btn btn-mane pull-right">Cancel</a>
+						<input class="btn btn-mane pull-right" type="submit" value="Delete">
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>

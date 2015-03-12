@@ -40,10 +40,9 @@ h2 {
   font-size: 1.8em;
 }
 h3 {
-  font-size: 1.6em;
-  width: 200px;
-  margin: 14px auto;
-  padding-bottom: 15px;
+  font-size: 1.4em;
+  margin:.5em 0;
+  
 }
 h4 {
   font-size: 1.4em;
@@ -85,9 +84,14 @@ p {
 .mane-content {
 	overflow:hidden;
 	margin-bottom:40px;	
+	margin-top:100px;
 }
 .mane-meta {
 	border-bottom:solid 1px #B6B6B6;
+}
+.mane-meta a.btn {
+	display:block;
+	margin-bottom:10px;
 }
 
 .mane-meta ul {
@@ -97,10 +101,18 @@ p {
 
 /* Links & Buttons */
 
+.navbar-mane-mobile {
+	position:fixed;
+	top:50px;
+	left:0;	
+	background-color:#CFD8DC;
+	height:50px;
+}
 .mane-action-bar {
 	border-top:1px solid #607D8B;
 	background-color:#fff;
-	padding-top:.8em;	
+	padding-top:.8em;
+	margin-top:20px;	
 }
 .btn {
 	border:none;
@@ -129,12 +141,19 @@ p {
 }
 
 
-.listing a {
-	display: block;
+
+.mane-listing {
+	margin:20px 0;	
 }
 
-.listing .date {
-	float: right;
+.mane-listing li {
+	line-height:1.5em;	
+}
+
+.mane-search {
+	background-color:#CFD8DC;
+	color:#455A64;
+	padding:7px 0;
 }
 
 a {
@@ -157,7 +176,8 @@ Stylesheet: Tablet Stylesheet
   }
   
 	.mane-content {
-		overflow:hidden;	
+		overflow:hidden;
+		margin-top:50px;	
 	}
 	.mane-meta {
 		border-left:solid 1px #B6B6B6;

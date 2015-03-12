@@ -1,9 +1,6 @@
 <div class="mane-content container">
     <div class="row">
-        <div class="col-sm-3 col-sm-push-9">
-        	<a href="/#/create" alt="back to listing" class="mane-link pull-right hidden-xs"><span class="glyphicon glyphicon-plus"></span> Create Opportunity</a>
-        </div>
-        <div class="col-sm-9 col-sm-pull-3">
+        <div class="col-sm-12">
         	<h1 class="page-heading">Opportunity Listing</h1>
         </div>
     </div>
@@ -38,12 +35,13 @@
             </ul>
 			<p>{{opp.description}}</p>
 		</div>
-		<div class="col-sm-3 mane-meta">
-			<a role="button" href="/#/edit/{{opp.id}}" class="btn btn-mane-primary">Edit</a>
-			<a role="button" href="/#/delete/{{opp.id}}" class="btn btn-mane">Delete</a>
+		<div class="col-lg-3 mane-meta">
+			<p><strong>{{opp.buyername}}</strong></p>
+			<p>{{opp.placeofperform}}</p>
+			<p>{{opp.setaside}}</p>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12 col-lg-12"><dir-pagination-controls></dir-pagination-controls></div>
+		<div class="col-lg-12"><dir-pagination-controls></dir-pagination-controls></div>
 	</div>
 </div>

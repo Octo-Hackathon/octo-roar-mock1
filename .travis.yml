@@ -14,7 +14,10 @@ before_script:
 #  - 'npm install -g bower grunt-cli karma'
 #  - 'bower install ManeStreet/bower.json'
   - sudo apt-get install mysql-server
-  - rake -f ManeStreet/Rakefile db:create RAILS_ENV=test
+  - sudo apt-get install mysql-server mysql-client
+  - sudo apt-get install libmysql-ruby
+  - mysql -e "create database ManeStreet_test;"
+#  - rake -f ManeStreet/Rakefile db:create RAILS_ENV=test
   - rake -f ManeStreet/Rakefile db:migrate RAILS_ENV=test
   - rake -f ManeStreet/Rakefile db:seed RAILS_ENV=test
 
