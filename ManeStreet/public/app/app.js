@@ -18,6 +18,10 @@ my18fApp.config(['$routeProvider',
         templateUrl: 'app/partials/manage.html',
         controller: 'ManageCtrl'
       }).
+      when('/details/:oppId', {
+        templateUrl: 'app/partials/detail.html',
+        controller: 'DetailCtrl'
+      }).
       when('/view', {
         templateUrl: 'app/partials/view.html',
         controller: 'ViewCtrl'

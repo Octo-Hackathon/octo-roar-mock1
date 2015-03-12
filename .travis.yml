@@ -13,7 +13,7 @@ node_js:
 before_script:
 #  - 'npm install -g bower grunt-cli karma'
 #  - 'bower install ManeStreet/bower.json'
-  - sudo apt-get install mysql-server-5.6
+  - sudo apt-get install mysql-server
   - rake db:create RAILS_ENV=test
   - rake db:migrate RAILS_ENV=test
   - rake db:seed RAILS_ENV=test

@@ -9,13 +9,26 @@ var my18fControllers = angular.module('my18fControllers', []);
  */
 my18fControllers.controller('ManageCtrl', function($scope, $http) {
 
-    $http.get('/opportunities').success(function(data) {
+    $http.get('/api/government/opportunities').success(function(data) {
 
       $scope.opportunities = data;
 
     });
 
     $scope.orderProp = '-id';
+
+});
+
+/**
+ * Controller for user list page, grabs user list
+ */
+my18fControllers.controller('DetailCtrl', function($scope, $http) {
+
+    $http.get('/api/government/opportunities/'+$routeParams.oppId).success(function(data) {
+
+      $scope.opportunity = data;
+
+    });
 
 });
 
