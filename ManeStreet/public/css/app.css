@@ -40,10 +40,9 @@ h2 {
   font-size: 1.8em;
 }
 h3 {
-  font-size: 1.6em;
-  width: 200px;
-  margin: 14px auto;
-  padding-bottom: 15px;
+  font-size: 1.4em;
+  margin:.5em 0;
+  
 }
 h4 {
   font-size: 1.4em;
@@ -89,6 +88,10 @@ p {
 }
 .mane-meta {
 	border-bottom:solid 1px #B6B6B6;
+}
+.mane-meta a.btn {
+	display:block;
+	margin-bottom:10px;
 }
 
 .mane-meta ul {
@@ -138,8 +141,13 @@ p {
 }
 
 
-.listing a {
-	display: block;
+
+.mane-listing {
+	margin:20px 0;	
+}
+
+.mane-listing li {
+	line-height:1.5em;	
 }
 
 .listing .date {
