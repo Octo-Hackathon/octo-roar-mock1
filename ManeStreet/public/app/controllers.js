@@ -29,7 +29,7 @@ my18fControllers.controller('CreateCtrl', function($scope, $http) {
 
     $scope.submit = function() {
 
-      $http.post('/api/government/opportunities', { opportunity: this.opp })).success(function(data) {
+      $http.post('/api/government/opportunities', { opportunity: this.opp }).success(function(data) {
 
         console.log('Added');
         console.log(data);
