@@ -1,0 +1,66 @@
+<div class="container">
+	<div class="col_lg_12">
+		<h2 class="page-heading">New Opportunity <a href="/" alt="back to listing" class="mane-link pull-right"><span class="glyphicon glyphicon-menu-left"></span> Back to Listing</a></h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<form ng-controller="CreateCtrl" ng-submit="submit()">
+			<div class="form-group">
+				<div class="row padding">
+					<div class="col-lg-12">
+						<label for="title">Title</label>
+						<input class="form-control" type="text" name="title" ng-model="opp.title" id="title" value="{{opp.title}}" required>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-lg-12">
+						<label for="desc">Description</label>
+						<textarea class="form-control" name="description" ng-model="opp.description" id="description" required>{{opp.description}}</textarea>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-md-4">
+						<label for="duedate">Response Due Date</label>
+						<input class="form-control" type="text" name="duedate" ng-model="opp.duedate" value="{{opp.duedate}}" id="duedate">
+					</div>
+					<div class="col-md-4">
+						<label for="opportunitytype">Type</label>
+						<input class="form-control" type="text" name="type" ng-model="opp.opportunitytype" id="opportunitytype" value="{{opp.opportunitytype}}" required>
+					</div>
+					<div class="col-md-4">
+						<label for="setaside">Set Aside</label>
+						<input class="form-control" type="text" name="set_aside" ng-model="opp.setaside" id="setaside" value="{{opp.setaside}}">
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-md-6">
+						<label for="buyername">Buyer Name</label>
+						<input class="form-control" type="text" name="buyername" ng-model="opp.buyername" id="buyername" value="{{opp.buyername}}" required>
+					</div>
+					<div class="col-md-6">
+						<label for="primaypoc">Primary POC</label>
+						<input class="form-control" type="text" name="poc" ng-model="opp.primaypoc" id="primaypoc" value="{{opp.primaypoc}}" required>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-md-6">
+						<label for="placeofperform">Place of Performance</label>
+						<input class="form-control" type="text" name="place" ng-model="opp.placeofperform" id="placeofperform" value="{{opp.placeofperform}}" required>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-lg-12">
+						<input class="btn btn-mane" type="submit" value="Save">
+						<input class="btn btn-mane-primary" type="submit" value="Publish">
+
+						<a href="#" class="btn btn-mane pull-right">Cancel</a>
+						<input class="btn btn-mane pull-right" type="submit" value="Delete">
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
