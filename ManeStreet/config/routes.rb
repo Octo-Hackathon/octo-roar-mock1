@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources :usertypes, except: [:new, :edit]
   resources :users, except: [:new, :edit]
   resources :opportunities, except: [:new, :edit]
+  post 'submitOpportunities', to: 'opportunities#create', path: '/api/government/opportunities'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

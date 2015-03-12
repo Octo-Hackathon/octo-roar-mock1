@@ -23,7 +23,7 @@ my18fControllers.controller('CreateCtrl', function($scope, $http) {
       'opportunitytype': '',
       'setaside': '',
       'buyername': '',
-      'primarypoc': '',
+      'primaypoc': '',
       'placeofperform': ''
     };
 
