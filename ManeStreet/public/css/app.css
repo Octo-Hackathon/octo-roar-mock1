@@ -18,8 +18,18 @@ Light Grey	#B6B6B6
 	padding: 10px 0;
 }
 
+.btn {
+	border:none;
+}
 .btn-mane {
 	background-color:transparent;
 	color:#607D8B;
-	border:none;
+}
+.btn-primary {
+	background-color:#FF9800;
+	color:#B6B6B6;
+}
+.btn-mane:hover, .btn-primary:hover {
+	background-color:#607D8B;
+	color:#B6B6B6;
 }
