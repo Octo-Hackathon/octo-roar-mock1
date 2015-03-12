@@ -133,7 +133,10 @@
             
         var pageNames = [
         
-            "gov create mobile"
+            "gov list mobile", 
+            "gov details mobile", 
+            "gov create mobile", 
+            "gov edit mobile"
         ];
         
         if (regions_enabled_in_reflow && is_previewing_in_reflow && is_chrome && !has_regions) {
@@ -170,7 +173,7 @@
         };
         
         var relaunchChrome = function () {
-            var previewId = "reflow-7cbf5c2a-09a1-0d7b-f3ea-4e0d5bcf2036",
+            var previewId = "reflow-efe626a5-8ce4-1753-6225-2ddbbb6fefc7",
                 url = window.location.origin + "/reflow?command=relaunch.preview.chrome_experimental&previewID=" + previewId,
                 request = new XMLHttpRequest();
             
@@ -193,7 +196,13 @@
        <p class='title'>MANE ST Mobile Prototype preview</p>
        <select id="pages">
            
+           <option>Gov List Mobile</option>
+           
+           <option>Gov Details Mobile</option>
+           
            <option>Gov Create Mobile</option>
+           
+           <option>Gov Edit Mobile</option>
            
        </select>
     </div>
