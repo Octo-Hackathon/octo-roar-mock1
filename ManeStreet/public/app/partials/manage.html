@@ -1,7 +1,12 @@
-<div class="container mane-content">
-	<div class="col-md-12 col-lg-12">
-		<h2 class="page-heading">Opportunity Listing <a href="/#/create" alt="Create" class="mane-link pull-right"><span class="glyphicon glyphicon-plus"></span> Create Opportunity</a></h2>
-	</div>
+<div class="mane-content container">
+    <div class="row">
+        <div class="col-sm-3 col-sm-push-9">
+        	<a href="/#/create" alt="back to listing" class="mane-link pull-right hidden-xs"><span class="glyphicon glyphicon-plus"></span> Create Opportunity</a>
+        </div>
+        <div class="col-sm-9 col-sm-pull-3">
+        	<h1 class="page-heading">Opportunity Listing</h1>
+        </div>
+    </div>
 	<div class="row">
 		<div class="col-md-12 col-lg-12">
 			<form class="form-inline">
@@ -25,15 +30,17 @@
 		<div class="col-md-2 col-lg-2">Last 60 Days</div>
 	</div>
 	<div class="row" ng-repeat="opp in opportunities | orderBy:orderProp" dir-paginate="item in items | itemsPerPage: 10">
-		<div class="col-md-9 col-lg-9 listing">
-			<a href="/#/details/{{opp.id}}">{{opp.title}}</a>
-			<span class="date">{{opp.publishdate}}</span>
-			<span class="type">OPP-{{opp.id}} | {{opp.opportunitytype}}</span>
+		<div class="col-sm-9 mane-listing">
+			<h3><a href="/#/details/{{opp.id}}">{{opp.title}}</a></h3>
+            <ul class="list-unstyled">
+            	<li><strong>{{opp.publishdate}}</strong></li>
+                <li>OPP-{{opp.id}} | {{opp.opportunitytype}}</li>
+            </ul>
 			<p>{{opp.description}}</p>
 		</div>
-		<div class="col-md-3 col-lg-3 mane-meta">
-			<a role="button" href="/#/edit/{{opp.id}}" class="btn btn-mane-primary" style="display: block;">Edit</a>
-			<a role="button" href="/#/delete/{{opp.id}}" class="btn btn-mane" style="display: block;">Delete</a>
+		<div class="col-sm-3 mane-meta">
+			<a role="button" href="/#/edit/{{opp.id}}" class="btn btn-mane-primary">Edit</a>
+			<a role="button" href="/#/delete/{{opp.id}}" class="btn btn-mane">Delete</a>
 		</div>
 	</div>
 	<div class="row">
