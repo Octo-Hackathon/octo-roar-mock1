@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get 'government', to: 'opportunities#searchDaysGov', path: '/api/government/opportunities/searchDays/:id'
   get 'government', to: 'opportunities#searchByGov', path: '/api/government/search/opportunities'
   get 'government', to: 'opportunities#publish', path: '/api/government/opportunities/publish/:id'
+  get 'contractor', to: 'opportunities#listCon', path: '/api/contractor/opportunities'
+  get 'contractor', to: 'opportunities#searchByCon', path: '/api/contractor/search/opportunities'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

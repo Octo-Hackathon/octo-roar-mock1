@@ -9,6 +9,13 @@ class OpportunitiesController < ApplicationController
     render json: @opportunities
   end
 
+  # GET /opportunities
+  # GET /opportunities.json
+  def listCon
+    @opportunities = Opportunity.where("status = ?", "Publish")
+    render json: @opportunities
+  end
+
   # GET /opportunities/1
   # GET /opportunities/1.json
   def show
@@ -71,6 +78,40 @@ class OpportunitiesController < ApplicationController
         @opportunities = Opportunity.where("placeofperform = ?", value)
      else "primaypoc"
         @opportunities = Opportunity.where("primaypoc = ?", value)
+   end
+   #@opportunities = Opportunity.all
+   render json: @opportunities
+  end
+
+  # GET /opportunities
+  # GET /opportunities.json
+  def searchByCon
+   Rails.logger = Logger.new(STDOUT)
+   criteria = params[:criteria]
+   value = params[:value]
+   case criteria
+     when "id"
+      @opportunities = Opportunity.where("id = ? and status= ?", value, "Publish")
+     when "title"
+      @opportunities = Opportunity.where("title = ? and status= ?", value, "Publish")
+     when "opportunitytype"
+      @opportunities = Opportunity.where("opportunitytype = ? and status= ?", value, "Publish")
+     when "description"
+      @opportunities = Opportunity.where("description = ? and status= ?", value, "Publish")
+     when "setaside"
+      @opportunities = Opportunity.where("setaside = ? and status= ?", value, "Publish")
+     when "publishdate"
+       @opportunities = Opportunity.where("publishdate = ? and status= ?", value, "Publish")
+     when "responseduedate"
+        @opportunities = Opportunity.where("responseduedate = ? and status= ?", value, "Publish")
+     when "status"
+        @opportunities = Opportunity.where("status = ? and status= ?", value, "Publish")
+     when "buyername"
+        @opportunities = Opportunity.where("buyername = ? and status= ?", value, "Publish")
+     when "placeofperform"
+        @opportunities = Opportunity.where("placeofperform = ? and status= ?", value, "Publish")
+     else "primaypoc"
+        @opportunities = Opportunity.where("primaypoc = ? and status= ?", value, "Publish")
    end
    #@opportunities = Opportunity.all
    render json: @opportunities
