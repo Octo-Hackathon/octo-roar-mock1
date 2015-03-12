@@ -22,7 +22,7 @@ my18fControllers.controller('ManageCtrl', function($scope, $http) {
 /**
  * Controller for user list page, grabs user list
  */
-my18fControllers.controller('DetailCtrl', function($scope, $http) {
+my18fControllers.controller('DetailCtrl', function($scope, $http, $routeParams) {
 
     $http.get('/api/government/opportunities/'+$routeParams.oppId).success(function(data) {
 
