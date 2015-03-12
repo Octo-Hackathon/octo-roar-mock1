@@ -13,17 +13,20 @@
 					<option value="opportunitytype">Opportunity Type</option>
 					<option value="description">Description</option>
 				</select>
+				<input type="submit" value="Go" class="btn btn-mane-primary">
 			</form>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col_lg_12">
-			Dates
-		</div>
+		<div class="col_lg_2 col-lg-offset-1">All</div>
+		<div class="col_lg_2">Today</div>
+		<div class="col_lg_2">Last 7 Days</div>
+		<div class="col_lg_2">Last 30 Days</div>
+		<div class="col_lg_2">Last 60 Days</div>
 	</div>
 	<div class="row" ng-repeat="opp in opportunities | orderBy:orderProp">
 		<div class="col-lg-9 listing">
-			<a href="details/{{opp.id}}">{{opp.title}}</a>
+			<a href="/#/details/{{opp.id}}">{{opp.title}}</a>
 			<span class="date">{{opp.publishdate}}</span>
 			<span class="type">OPP-{{opp.id}} | {{opp.opportunitytype}}</span>
 			<p>{{opp.description}}</p>
