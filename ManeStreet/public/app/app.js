@@ -28,9 +28,9 @@ my18fApp.config(['$routeProvider',
       }).
       when('/view', {
         templateUrl: 'app/partials/view.html',
-        controller: 'ManageCtrl'
+        controller: 'ViewCtrl'
       }).
       otherwise({
-        redirectTo: '/view'
+        redirectTo: '/manage'
       });
   }]);
