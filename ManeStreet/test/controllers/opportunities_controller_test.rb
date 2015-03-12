@@ -15,7 +15,6 @@ class OpportunitiesControllerTest < ActionController::TestCase
       primaypoc: 'Joe trump',
       user_id: 1,
       
-      
     }
   end
 
