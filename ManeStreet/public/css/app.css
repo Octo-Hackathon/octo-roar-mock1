@@ -1,3 +1,19 @@
+/*
+Dark Blue	#455A64
+Med Blue	#607D8B
+Light Blue	#CFD8DC
+Oranage		#FF9800
+Dark Grey	#353535
+Med Grey	#727272
+Light Grey	#B6B6B6
+
+*/
+
+.page-heading {
+	border-left:5px solid #FF9800;
+	color: #607D8B;
+}
+
 .padding {
 	padding: 10px 0;
 }
