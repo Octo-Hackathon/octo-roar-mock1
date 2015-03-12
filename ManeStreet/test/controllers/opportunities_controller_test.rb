@@ -3,6 +3,20 @@ require 'test_helper'
 class OpportunitiesControllerTest < ActionController::TestCase
   setup do
     @opportunity = opportunities(:one)
+    @update = {
+      title: 'Test Title',
+      opportunitytype: 'Test Type',
+      description: 'Test Description',
+      setaside: 'Tets set aside',
+      responseduedate: '3/10/2015',
+      status: 'Draft',
+      buyername: 'test Byuername',
+      placeofperform: 'NIH',
+      primaypoc: 'Joe trump',
+      user_id: 1,
+      
+      
+    }
   end
 
   test "should get index" do
