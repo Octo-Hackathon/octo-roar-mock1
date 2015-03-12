@@ -26,7 +26,7 @@ my18fControllers.controller('DetailCtrl', function($scope, $http, $routeParams) 
 
     $http.get('/api/government/opportunities/'+$routeParams.oppId).success(function(data) {
 
-      $scope.opportunity = data;
+      $scope.opp = data;
 
     });
 
