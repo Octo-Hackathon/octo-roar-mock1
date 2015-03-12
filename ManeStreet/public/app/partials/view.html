@@ -1,13 +1,15 @@
-<div class="container">
-	<div class="col-lg-12">
-		<h2 class="page-heading">Opportunity Listing <a href="/#/create" alt="Create" class="mane-link pull-right"><span class="glyphicon glyphicon-plus"></span> Create Opportunity</a></h2>
-	</div>
-	<div class="row">
-		<div class="col-lg-12">
-			<form class="form-inline">
+<div class="mane-content container">
+    <div class="row">
+        <div class="col-sm-9 col-sm-pull-3">
+        	<h1 class="page-heading">Opportunity Listing</h1>
+        </div>
+    </div>
+	<div class="row mane-search">
+		<div class="col-md-12 col-lg-12">
+			<form class="form-inline text-center">
 				<label for="search">Search</label>
-				<input type="text" class="form_control" id="search" name="search">
-				<select name="field">
+				<input type="text" class="form-control input-sm" id="search" name="search">
+				<select name="field" class="form-control input-sm">
 					<option value="title">Title</option>
 					<option value="id">Opportunity Number</option>
 					<option value="opportunitytype">Opportunity Type</option>
@@ -18,17 +20,19 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-2 col-lg-offset-1">All</div>
-		<div class="col-lg-2">Today</div>
-		<div class="col-lg-2">Last 7 Days</div>
-		<div class="col-lg-2">Last 30 Days</div>
-		<div class="col-lg-2">Last 60 Days</div>
+		<div class="col-md-2 col-lg-2 col-sm-offset-1">All</div>
+		<div class="col-md-2 col-lg-2">Today</div>
+		<div class="col-md-2 col-lg-2">Last 7 Days</div>
+		<div class="col-md-2 col-lg-2">Last 30 Days</div>
+		<div class="col-md-2 col-lg-2">Last 60 Days</div>
 	</div>
 	<div class="row" ng-repeat="opp in opportunities | orderBy:orderProp" dir-paginate="item in items | itemsPerPage: 10">
-		<div class="col-lg-9 listing">
-			<a href="/#/details/{{opp.id}}">{{opp.title}}</a>
-			<span class="date">{{opp.publishdate}}</span>
-			<span class="type">OPP-{{opp.id}} | {{opp.opportunitytype}}</span>
+		<div class="col-sm-9 mane-listing">
+			<h3><a href="/#/details/{{opp.id}}">{{opp.title}}</a></h3>
+            <ul class="list-unstyled">
+            	<li><strong>{{opp.publishdate}}</strong></li>
+                <li>OPP-{{opp.id}} | {{opp.opportunitytype}}</li>
+            </ul>
 			<p>{{opp.description}}</p>
 		</div>
 		<div class="col-lg-3 mane-meta">
