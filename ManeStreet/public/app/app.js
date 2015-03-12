@@ -34,4 +34,3 @@ my18fApp.config(['$routeProvider',
         redirectTo: '/manage'
       });
   }]);
-
