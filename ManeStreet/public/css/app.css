@@ -9,6 +9,12 @@ Light Grey	#B6B6B6
 
 */
 
+/******************************************************************
+
+Stylesheet: Base Stylesheet
+
+******************************************************************/
+
 @font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local('Roboto-Light'),url(http://fonts.gstatic.com/s/roboto/v14/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');}
 @font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(http://fonts.gstatic.com/s/roboto/v14/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');}
 @font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(http://fonts.gstatic.com/s/roboto/v14/RxZJdnzeo3R5zSexge8UUT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');}
@@ -22,6 +28,36 @@ body{
 	font-family:'Roboto',Arial,Helvetica,sans-serif;
 	color:#353535;
 }
+
+strong {
+	font-weight:900;
+	color:#455A64;	
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.6em;
+  width: 200px;
+  margin: 14px auto;
+  padding-bottom: 15px;
+}
+h4 {
+  font-size: 1.4em;
+  line-height: 1.6em;
+  font-size: 1.3em;
+  margin-top: 22px;
+}
+h5 {
+  font-size: 1.2em;
+}
+p {
+  line-height: 1.8em;
+}
+
 .page-heading {
 	border-left:5px solid #FF9800;
 	color: #607D8B;
@@ -42,6 +78,20 @@ body{
 
 .navbar-mane a {
 	color:#FFF;
+}
+.navbar-mane a:hover {
+	color:#FFF;
+}
+.mane-content {
+	overflow:hidden;	
+}
+.mane-meta {
+	border-bottom:solid 1px #B6B6B6;
+}
+
+.mane-meta ul {
+	 color:#455A64;
+	 line-height: 1.8em;
 }
 
 /* Links & Buttons */
@@ -81,4 +131,47 @@ a {
 
 a:hover {
 	color:#455A64;
+}
+
+/* import tablet */
+/******************************************************************
+
+Stylesheet: Tablet Stylesheet
+
+******************************************************************/
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  
+	.mane-content {
+		overflow:hidden;	
+	}
+	.mane-meta {
+		border-left:solid 1px #B6B6B6;
+		border-bottom:0px;
+		margin-bottom:-1000px;
+		padding-bottom:1000px;
+		height:100%;
+	}
+}
+/* import notebook */
+/******************************************************************
+
+Stylesheet: Notebook Stylesheet
+
+******************************************************************/
+@media (min-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+}
+/* import desktop */
+/******************************************************************
+
+Stylesheet: Desktop Stylesheet
+
+******************************************************************/
+@media (min-width: 1200px) {
+  
 }
