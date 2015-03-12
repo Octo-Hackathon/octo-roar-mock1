@@ -1,0 +1,447 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#box1 {
+    float: left;
+    height: auto;
+    margin: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    padding: 10px 5px;
+}
+
+#text3 {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(207, 216, 220);
+}
+
+#text4 {
+    float: right;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: right;
+    font-weight: 100;
+    line-height: 1em;
+    margin: 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(207, 216, 220);
+}
+
+#box2 {
+    float: left;
+    height: 720px;
+    margin: 72px 0px 0px;
+    clear: none;
+    width: 100%;
+    padding: 5px;
+}
+
+#text5 {
+    float: left;
+    font-size: 20px;
+    width: 290px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 5px;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+    margin-right: 0px;
+    padding-left: 0px;
+}
+
+#box3 {
+    float: left;
+    height: 40px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 3px;
+    background-color: rgb(255, 152, 0);
+    margin-right: 0%;
+}
+
+#text6 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 10px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+}
+
+#text7 {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 5px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+}
+
+#text8 {
+    float: left;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 5px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(0, 0, 0);
+}
+
+#box {
+    float: left;
+    height: auto;
+    margin: 0px;
+    clear: both;
+    width: 100%;
+    padding: 10px 5px;
+    display: block;
+    background-color: rgb(182, 182, 182);
+}
+
+#text:hover {
+    color: rgb(255, 152, 0);
+}
+
+#text {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(0, 0, 0);
+}
+
+#text1:hover {
+    color: rgb(255, 152, 0);
+}
+
+#text1 {
+    float: right;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(0, 0, 0);
+}
+
+#text2:hover {
+    color: rgb(255, 152, 0);
+}
+
+#text2 {
+    float: right;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0px 10px 0px 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(0, 0, 0);
+}
+
+#text9 {
+    float: left;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 5px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+}
+
+#text10 {
+    float: left;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 5px 0px 0px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+}
+
+@media only screen and (max-width: 320px) {
+    #box1 {
+        float: left;
+        height: auto;
+        margin: 0px;
+        clear: none;
+        width: 100%;
+        background-color: rgb(53, 53, 53);
+        padding: 10px 5px;
+        position: fixed;
+    }
+
+    #text3 {
+        float: left;
+        font-size: 1em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 0px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(207, 216, 220);
+    }
+
+    #text4 {
+        float: right;
+        font-size: 1em;
+        width: auto;
+        height: auto;
+        text-align: right;
+        font-weight: 100;
+        line-height: 1em;
+        margin: 0px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(207, 216, 220);
+    }
+
+    #box2 {
+        float: left;
+        height: auto;
+        margin: 72px 0px 0px;
+        clear: none;
+        width: 100%;
+        padding: 5px;
+    }
+
+    #text5 {
+        float: left;
+        font-size: 20px;
+        width: 290px;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 5px;
+        margin-top: 0px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+
+    #box3 {
+        float: left;
+        height: 40px;
+        margin-left: 0%;
+        margin-top: 0px;
+        clear: none;
+        width: 3px;
+        background-color: rgb(255, 152, 0);
+        margin-right: 0%;
+    }
+
+    #text6 {
+        float: left;
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: 600;
+        line-height: 1em;
+        margin: 10px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+    }
+
+    #textspan {
+        float: none;
+        font-size: 14px;
+        line-height: 1em;
+    }
+
+    #text7 {
+        float: left;
+        font-size: 1em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 5px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+    }
+
+    #text8 {
+        float: left;
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: 600;
+        line-height: 1em;
+        margin: 5px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(0, 0, 0);
+    }
+
+    #textspan1 {
+        float: none;
+        font-size: 1em;
+        line-height: 1em;
+        font-weight: 100;
+    }
+
+    #box {
+        float: left;
+        height: auto;
+        margin: 0px;
+        clear: none;
+        width: 100%;
+        padding: 10px 5px;
+        position: fixed;
+        top: 36px;
+        left: 0%;
+        display: block;
+        background-color: rgb(182, 182, 182);
+    }
+
+    #text:hover {
+        color: rgb(255, 152, 0);
+    }
+
+    #text {
+        float: left;
+        font-size: 1em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 0px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(0, 0, 0);
+    }
+
+    #text1:hover {
+        color: rgb(255, 152, 0);
+    }
+
+    #text1 {
+        float: right;
+        font-size: 1em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 0px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(0, 0, 0);
+    }
+
+    #text2:hover {
+        color: rgb(255, 152, 0);
+    }
+
+    #text2 {
+        float: right;
+        font-size: 1em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 0px 10px 0px 0px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(0, 0, 0);
+    }
+
+    #text9 {
+        float: left;
+        font-size: 1em;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 5px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+    }
+
+    #text10 {
+        float: left;
+        font-size: 1em;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 5px 0px 0px;
+        clear: both;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+    }
+}
+
