@@ -17,3 +17,9 @@ Light Grey	#B6B6B6
 .padding {
 	padding: 10px 0;
 }
+
+.btn-mane {
+	background-color:transparent;
+	color:#607D8B;
+	border:none;
+}
