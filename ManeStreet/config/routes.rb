@@ -6,8 +6,9 @@ Rails.application.routes.draw do
   get 'government', to: 'opportunities#index', path: '/api/government/opportunities'
   get 'government', to: 'opportunities#show', path: '/api/government/opportunities/:id'
   delete 'government', to: 'opportunities#destroy', path: '/api/government/opportunities/:id'
-  get 'government', to: 'opportunities#searchDays', path: '/api/government/opportunities/searchDays/:id'
-  post 'government', to: 'opportunities#search', path: '/api/government/opportunities/search'
+  get 'government', to: 'opportunities#searchDaysGov', path: '/api/government/opportunities/searchDays/:id'
+  get 'government', to: 'opportunities#searchByGov', path: '/api/government/search/opportunities'
+  get 'government', to: 'opportunities#publish', path: '/api/government/opportunities/publish/:id'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
