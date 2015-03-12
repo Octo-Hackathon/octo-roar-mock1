@@ -19,6 +19,7 @@ class OpportunitiesController < ApplicationController
   # POST /opportunities.json
   def create
     @opportunity = Opportunity.new(opportunity_params)
+    @opportunity.status = "Draft"
 
     if @opportunity.save
       render json: @opportunity, status: :created, location: @opportunity

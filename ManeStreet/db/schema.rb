@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20150311224237) do
 
   create_table "opportunities", force: :cascade do |t|
     t.string   "title",           limit: 255
-    t.string   "type",            limit: 255
+    t.string   "opportunitytype", limit: 255
     t.text     "description",     limit: 65535
     t.string   "setaside",        limit: 255
     t.datetime "publishdate"
