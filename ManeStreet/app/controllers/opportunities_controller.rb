@@ -15,6 +15,27 @@ class OpportunitiesController < ApplicationController
     render json: @opportunity
   end
 
+  # GET /opportunities/1
+  # GET /opportunities/1.json
+  def searchDays
+   daysLess = params[:id]
+   Rails.logger = Logger.new(STDOUT)
+   logger.info "Date limit is :" << daysLess.to_i  
+   now = Date.today
+   days_ago = (now - daysLess.to_i)
+   logger.info "Date limit is :" << days_ago.to_s
+   #@opportunities = Opportunity.all
+   @opportunities = Opportunity.where("updated_at >= ?", days_ago)
+    render json: @opportunities
+  end
+
+  # POST /opportunities
+  # POST /opportunities.json
+  def search
+   @opportunities = Opportunity.all
+    render json: @opportunities
+  end
+
   # POST /opportunities
   # POST /opportunities.json
   def create
