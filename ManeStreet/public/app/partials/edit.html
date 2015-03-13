@@ -1,6 +1,13 @@
 <div class="container mane-content">
-	<div class="col_lg_12">
-		<h2 class="page-heading">{{opp.title}} <a href="/" alt="back to listing" class="mane-link pull-right"><span class="glyphicon glyphicon-menu-left"></span> Back to Listing</a></h2>
+	<div class="row">
+	        <div class="col-sm-3 col-sm-push-9">
+	        	<a href="/#/Manage" alt="back to listing" class="mane-link pull-right hidden-xs"><span class="glyphicon glyphicon-menu-left"></span> Back to Listing</a>
+	        </div>
+	        <div class="col-sm-9 col-sm-pull-3">
+	        	<h1 class="page-heading">{{opp.title}}</h1>
+	        </div>
+    	</div>
+    	<div class="row">
 		<form ng-controller="EditCtrl">
 			<div class="form-group">
 				<div class="row padding">
