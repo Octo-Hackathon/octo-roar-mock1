@@ -31,7 +31,7 @@
 		<div class="col-md-2 col-lg-2">Last 30 Days</div>
 		<div class="col-md-2 col-lg-2">Last 60 Days</div>
 	</div>
-	<div class="row" ng-repeat="opp in opportunities | orderBy:orderProp" dir-paginate="item in items | itemsPerPage: 10">
+	<div class="row mane-row" ng-repeat="opp in opportunities | orderBy:orderProp" dir-paginate="item in items | itemsPerPage: 10">
 		<div class="col-sm-9 mane-listing">
 			<h3><a href="/#/viewdetails/{{opp.id}}">{{opp.title}}</a></h3>
             <ul class="list-unstyled">
