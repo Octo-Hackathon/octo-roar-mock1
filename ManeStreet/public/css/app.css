@@ -31,7 +31,7 @@ body{
 
 strong {
 	font-weight:900;
-	color:#455A64;	
+	color:#455A64;
 }
 h1 {
   font-size: 2em;
@@ -42,7 +42,7 @@ h2 {
 h3 {
   font-size: 1.4em;
   margin:.5em 0;
-  
+
 }
 h4 {
   font-size: 1.4em;
@@ -83,7 +83,7 @@ p {
 }
 .mane-content {
 	overflow:hidden;
-	margin-bottom:40px;	
+	margin-bottom:40px;
 	margin-top:100px;
 }
 .mane-meta {
@@ -105,12 +105,12 @@ p {
 .navbar-mane-mobile {
 	position:fixed;
 	top:50px;
-	left:0;	
+	left:0;
 	background-color:#CFD8DC;
 	height:50px;
 }
 .navbar-mane-mobile a.nav-link {
-	margin-top:1.2em;	
+	margin-top:1.2em;
 	display:block;
 }
 .navbar-mane-mobile .btn {
@@ -121,7 +121,7 @@ p {
 	border-top:1px solid #607D8B;
 	background-color:#fff;
 	padding-top:.8em;
-	margin-top:20px;	
+	margin-top:20px;
 }
 .btn {
 	border:none;
@@ -146,11 +146,11 @@ p {
 }
 .btn-mane-default:hover {
 	background-color:#455A64;
-	color:#fff;	
+	color:#fff;
 }
 
 .mane-link {
-	margin-top:1.4em;	
+	margin-top:1.4em;
 }
 
 label {
@@ -163,11 +163,12 @@ label {
 }
 
 .mane-row {
-	margin:20px 0;	
+	margin:20px 0;
+	overflow: hidden;
 }
 
 .mane-listing li {
-	line-height:1.5em;	
+	line-height:1.5em;
 }
 
 .mane-search {
@@ -177,7 +178,7 @@ label {
 }
 
 a {
-	color:#607D8B;	
+	color:#607D8B;
 }
 
 a:hover {
@@ -194,10 +195,10 @@ Stylesheet: Tablet Stylesheet
   body {
     font-size: 16px;
   }
-  
+
 	.mane-content {
 		overflow:hidden;
-		margin-top:50px;	
+		margin-top:50px;
 	}
 	.mane-meta {
 		border-left:solid 1px #B6B6B6;
@@ -217,7 +218,7 @@ Stylesheet: Notebook Stylesheet
   body {
     font-size: 18px;
   }
-	
+
 	.form-group {
 		margin-bottom:15px;
 	}
@@ -232,5 +233,5 @@ Stylesheet: Desktop Stylesheet
 
 ******************************************************************/
 @media (min-width: 1200px) {
-  
+
 }
