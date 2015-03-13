@@ -9,24 +9,15 @@
 	        </div>
     	</div>
     	<div class="row">
-		<form ng-controller="EditCtrl">
+		<form ng-controller="CreateCtrl">
 			<div class="form-group">
-				<div class="row">
-				<div class="col-md-12">
-						<label for="title">Title <span class="small text-muted text-uppercase">(Required)</span></label>
-						<input class="form-control" type="text" name="title" ng-model="opp.title" id="title" value="{{opp.title}}" required>
-						</div>
-						</div>
-				</div>
+				<label for="title">Title <span class="small text-muted text-uppercase">(Required)</span></label>
+				<input class="form-control" type="text" name="title" ng-model="opp.title" id="title" value="{{opp.title}}" required>
+            </div>
 			<div class="form-group">
-				<div class="row">
-				<div class="col-md-12">
-						<label for="desc">Description <span class="small text-muted text-uppercase">(Required)</span></label>
-						<textarea class="form-control" name="description" ng-model="opp.description" id="description" required>{{opp.description}}</textarea>
-					</div>
-					</div>
-					</div>
-				</div>
+				<label for="desc">Description <span class="small text-muted text-uppercase">(Required)</span></label>
+				<textarea class="form-control" name="description" ng-model="opp.description" id="description" required>{{opp.description}}</textarea>
+            </div>
 			<div class="form-group">
             			<div class="row">
 					<div class="col-md-4">
