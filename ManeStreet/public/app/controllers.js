@@ -37,6 +37,24 @@ my18fControllers.controller('ViewCtrl', function($scope, $http) {
 /**
  * Controller for user list page, grabs user list
  */
+my18fControllers.controller('SearchCtrl', function($scope, $http) {
+
+    $scope.search = {
+      criteria: '',
+      value: ''
+    };
+
+    $scope.submit = function() {
+
+
+
+    }
+
+});
+
+/**
+ * Controller for user list page, grabs user list
+ */
 my18fControllers.controller('DetailCtrl', function($scope, $http, $routeParams) {
 
     $http.get('/api/government/opportunities/'+$routeParams.oppId).success(function(data) {
@@ -50,7 +68,7 @@ my18fControllers.controller('DetailCtrl', function($scope, $http, $routeParams) 
 /**
  * Controller for user list page, grabs user list
  */
-my18fControllers.controller('EditCtrl', function($scope, $http, $routeParams, $location) {
+my18fControllers.controller('EditCtrl', function($scope, $http, $routeParams, $route, $location) {
 
     $http.get('/api/government/opportunities/'+$routeParams.oppId).success(function(data) {
 
@@ -78,8 +96,10 @@ my18fControllers.controller('EditCtrl', function($scope, $http, $routeParams, $l
     $scope.submit = function() {
 
       $http.put('/opportunities/'+$routeParams.oppId, {opportunity: this.opp}).success(function(data) {
+
         alert('Opportunity Updated');
-        $location.path('/manage');
+        $route.reload();
+
       });
 
     }
@@ -87,8 +107,10 @@ my18fControllers.controller('EditCtrl', function($scope, $http, $routeParams, $l
     $scope.publish = function() {
 
       $http.get('/api/government/opportunities/publish/'+$routeParams.oppId).success(function(data) {
+
         alert('Opportunity Published');
         $location.path('/manage');
+
       });
 
     }
@@ -98,7 +120,7 @@ my18fControllers.controller('EditCtrl', function($scope, $http, $routeParams, $l
 /**
  * Controller for user add page, grabs form submit and does something with it
  */
-my18fControllers.controller('CreateCtrl', function($scope, $http) {
+my18fControllers.controller('CreateCtrl', function($scope, $http, $location) {
 
     $scope.opp = {
       'title': '',
@@ -115,8 +137,8 @@ my18fControllers.controller('CreateCtrl', function($scope, $http) {
 
       $http.post('/api/government/opportunities', { opportunity: this.opp }).success(function(data) {
 
-        console.log('Added');
-        console.log(data);
+        alert('Opportunity Published');
+        $location.path('/edit/'+data.id);
 
       });
 
