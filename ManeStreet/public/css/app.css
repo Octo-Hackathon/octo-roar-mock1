@@ -167,6 +167,10 @@ label {
 	overflow: hidden;
 }
 
+.navbar-brand {
+	float: none !important;
+}
+
 .mane-listing li {
 	line-height:1.5em;
 }
