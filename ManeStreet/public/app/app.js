@@ -22,6 +22,10 @@ my18fApp.config(['$routeProvider',
         templateUrl: 'app/partials/detail.html',
         controller: 'DetailCtrl'
       }).
+      when('/viewdetails/:oppId', {
+        templateUrl: 'app/partials/viewdetail.html',
+        controller: 'DetailCtrl'
+      }).
       when('/edit/:oppId', {
         templateUrl: 'app/partials/edit.html',
         controller: 'EditCtrl'

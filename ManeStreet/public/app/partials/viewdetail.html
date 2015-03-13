@@ -1,0 +1,34 @@
+<div class="mane-content container">
+  	<div class="row">
+        <div class="col-sm-3 col-sm-push-9">
+        	<a href="/#/manage" class="pull-right btn-link" alt="back to...">link back</a>
+        </div>
+        <div class="col-sm-9 col-sm-pull-3">
+        	<h1 class="page-heading">{{opp.title}}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-sm-push-9 mane-meta">
+        	<ul class="list-unstyled">
+            	<li><strong>OPP-{{opp.id}}</strong></li>
+            	<li>{{opp.opportunitytype}}</li>
+            	<li>{{opp.setaside}}</li>
+            </ul>
+        	<ul class="list-unstyled">
+            	<li><strong>{{opp.buyername}}</strong></li>
+            	<li>{{opp.placeofperform}}</li>
+            	<li>{{opp.primaypoc}}</li>
+            </ul>
+        </div>
+        <div class="col-sm-9 col-sm-pull-3">
+        	<p><strong>{{opp.publishdate}}</strong></p>
+            <p>{{opp.description}}</p>
+        </div>
+    </div>
+    <div class="row mane-action-bar">
+    	<div class="col-sm-3 col-sm-push-9 col-xs-8">
+        	<input class="btn btn-mane" type="submit" value="Delete">
+            <a href="/#/manage" class="btn btn-mane">Cancel</a>
+        </div>
+    </div>
+  </div>

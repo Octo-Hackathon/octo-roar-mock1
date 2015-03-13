@@ -28,7 +28,7 @@
 	</div>
 	<div class="row" ng-repeat="opp in opportunities | orderBy:orderProp" dir-paginate="item in items | itemsPerPage: 10">
 		<div class="col-sm-9 mane-listing">
-			<h3><a href="/#/details/{{opp.id}}">{{opp.title}}</a></h3>
+			<h3><a href="/#/viewdetails/{{opp.id}}">{{opp.title}}</a></h3>
             <ul class="list-unstyled">
             	<li><strong>{{opp.publishdate}}</strong></li>
                 <li>OPP-{{opp.id}} | {{opp.opportunitytype}}</li>
