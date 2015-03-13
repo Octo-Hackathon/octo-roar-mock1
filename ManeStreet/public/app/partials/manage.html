@@ -12,7 +12,7 @@
 			<form class="form-inline text-center" ng-controller="SearchCtrl">
 				<label for="search">Search</label>
 				<input type="text" class="form-control input-sm" id="search" ng-model="search.value">
-				<select name="field" class="form-control input-sm" ng-model="search.criteria">
+				<select name="field" class="form-control input-sm" ng-model="search.criteria" required>
 					<option value="title">Title</option>
 					<option value="id">Opportunity Number</option>
 					<option value="opportunitytype">Opportunity Type</option>
