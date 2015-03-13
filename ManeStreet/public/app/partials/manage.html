@@ -12,7 +12,7 @@
 			<form class="form-inline text-center" ng-controller="SearchCtrl">
 				<label for="search">Search</label>
 				<input type="text" class="form-control input-sm" id="search" ng-model="search.value">
-				<select name="field" class="form-control input-sm" ng-model="search.criteria" required>
+				<select name="field" class="form-control input-sm" ng-model="search.criteria">
 					<option value="title">Title</option>
 					<option value="id">Opportunity Number</option>
 					<option value="opportunitytype">Opportunity Type</option>
@@ -34,7 +34,7 @@
 		<div class="col-md-2 col-lg-2">Last 30 Days</div>
 		<div class="col-md-2 col-lg-2">Last 60 Days</div>
 	</div>
-	<div class="row" ng-repeat="opp in opportunities | orderBy:orderProp" dir-paginate="item in items | itemsPerPage: 10">
+	<div class="row mane-row" ng-repeat="opp in opportunities | orderBy:orderProp" dir-paginate="item in items | itemsPerPage: 10">
 		<div class="col-sm-9 mane-listing">
 			<h3><a href="/#/details/{{opp.id}}">{{opp.title}}</a></h3>
             <ul class="list-unstyled">
