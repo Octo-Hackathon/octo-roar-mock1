@@ -10,25 +10,26 @@
     	<div class="row">
 		<form ng-controller="EditCtrl">
 			<div class="form-group">
-				<div class="row padding">
-					<div class="col-lg-12">
-						<label for="title">Title</label>
+            			<div class="row">
+						<label for="title">Title <span class="small text-muted text-uppercase">(Required)</span></label>
 						<input class="form-control" type="text" name="title" ng-model="opp.title" id="title" value="{{opp.title}}" required>
-					</div>
 				</div>
-				<div class="row padding">
-					<div class="col-lg-12">
-						<label for="desc">Description</label>
+				</div>
+			<div class="form-group">
+            			<div class="row">
+						<label for="desc">Description <span class="small text-muted text-uppercase">(Required)</span></label>
 						<textarea class="form-control" name="description" ng-model="opp.description" id="description" required>{{opp.description}}</textarea>
 					</div>
 				</div>
-				<div class="row padding">
+				</div>
+			<div class="form-group">
+            			<div class="row">
 					<div class="col-md-4">
 						<label for="responseduedate">Response Due Date</label>
 						<input class="form-control" type="text" name="responseduedate" ng-model="opp.responseduedate" value="{{opp.responseduedate}}" id="responseduedate">
 					</div>
 					<div class="col-md-4">
-						<label for="opportunitytype">Type</label>
+						<label for="opportunitytype">Type <span class="small text-muted text-uppercase">(Required)</span></label>
 						<input class="form-control" type="text" name="type" ng-model="opp.opportunitytype" id="opportunitytype" value="{{opp.opportunitytype}}" required>
 					</div>
 					<div class="col-md-4">
@@ -36,22 +37,40 @@
 						<input class="form-control" type="text" name="set_aside" ng-model="opp.setaside" id="setaside" value="{{opp.setaside}}">
 					</div>
 				</div>
-				<div class="row padding">
+				</div>
+			<div class="form-group">
+            			<div class="row">
 					<div class="col-md-6">
-						<label for="buyername">Buyer Name</label>
+						<label for="buyername">Buyer Name <span class="small text-muted text-uppercase">(Required)</span></label>
 						<input class="form-control" type="text" name="buyername" ng-model="opp.buyername" id="buyername" value="{{opp.buyername}}" required>
 					</div>
 					<div class="col-md-6">
-						<label for="primaypoc">Primary POC</label>
+						<label for="primaypoc">Primary POC <span class="small text-muted text-uppercase">(Required)</span></label>
 						<input class="form-control" type="text" name="poc" ng-model="opp.primaypoc" id="primaypoc" value="{{opp.primaypoc}}" required>
 					</div>
 				</div>
-				<div class="row padding">
+				</div>
+			<div class="form-group">
+            			<div class="row">
 					<div class="col-md-6">
-						<label for="placeofperform">Place of Performance</label>
+						<label for="placeofperform">Place of Performance <span class="small text-muted text-uppercase">(Required)</span></label>
 						<input class="form-control" type="text" name="place" ng-model="opp.placeofperform" id="placeofperform" value="{{opp.placeofperform}}" required>
 					</div>
 				</div>
+				</div>
+				
+             
+			            <nav class="navbar navbar-mane-mobile visible-xs navbar-fixed-top">
+			            	<div clas="row">
+			                	<div class="col-xs-6">
+			                    	<a class="nav-link" href="#"><span class="glyphicon glyphicon-menu-left"></span> Back to Listing</a>
+			                    </div>
+			                	<div class="col-xs-6 text-right">
+			                    	<input class="btn btn-mane" type="submit" value="Save">
+			                    	<a href="#" class="btn btn-mane">Cancel</a>
+			                    </div>
+			                </div>
+			            </nav>
 				<div class="row mane-action-bar">
 			            	<div class="hidden-xs">
 								<div class="col-sm-6">
