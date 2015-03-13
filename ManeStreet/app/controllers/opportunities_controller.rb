@@ -67,7 +67,7 @@ class OpportunitiesController < ApplicationController
      when "setaside"
       @opportunities = Opportunity.where("setaside = ?", value)
      when "publishdate"
-       @opportunities = Opportunity.where("publishdate = ?", value)
+       @opportunities = Opportunity.where("date(publishdate) = ?", value)
      when "responseduedate"
         @opportunities = Opportunity.where("responseduedate = ?", value)
      when "status"
@@ -101,7 +101,7 @@ class OpportunitiesController < ApplicationController
      when "setaside"
       @opportunities = Opportunity.where("setaside = ? and status= ?", value, "Publish")
      when "publishdate"
-       @opportunities = Opportunity.where("publishdate = ? and status= ?", value, "Publish")
+       @opportunities = Opportunity.where("date(publishdate) = ? and status= ?", value, "Publish")
      when "responseduedate"
         @opportunities = Opportunity.where("responseduedate = ? and status= ?", value, "Publish")
      when "status"
