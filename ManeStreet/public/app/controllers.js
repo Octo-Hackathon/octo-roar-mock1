@@ -137,7 +137,7 @@ my18fControllers.controller('CreateCtrl', function($scope, $http, $location) {
 
       $http.post('/api/government/opportunities', { opportunity: this.opp }).success(function(data) {
 
-        alert('Opportunity Published');
+        alert('Opportunity Created');
         $location.path('/edit/'+data.id);
 
       });
