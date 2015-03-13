@@ -38,7 +38,7 @@
 		<div class="col-sm-9 mane-listing">
 			<h3><a href="/#/details/{{opp.id}}">{{opp.title}}</a></h3>
             <ul class="list-unstyled">
-            	<li><strong>{{opp.publishdate}}</strong></li>
+            	<li><strong>{{opp.publishdate || "(Not Published)"}}</strong></li>
                 <li>OPP-{{opp.id}} | {{opp.opportunitytype}}</li>
             </ul>
 			<p>{{opp.description}}</p>
