@@ -77,7 +77,7 @@ my18fControllers.controller('EditCtrl', function($scope, $http, $routeParams, $l
 
     $scope.submit = function() {
 
-      $http.put('/opportunities/'+$routeParams.oppId, this.opp).success(function(data) {
+      $http.put('/opportunities/'+$routeParams.oppId, {opportunity: this.opp}).success(function(data) {
         alert('Opportunity Updated');
         $location.path('/manage');
       });
