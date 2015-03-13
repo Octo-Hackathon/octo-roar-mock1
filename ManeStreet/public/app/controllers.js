@@ -9,7 +9,7 @@ var my18fControllers = angular.module('my18fControllers', []);
  */
 my18fControllers.controller('ManageCtrl', function($scope, $http) {
 
-    $http.get('/api/government/opportunities').success(function(data) {
+    $http.get('/api/government/opportunities?'+Math.floor(Math.random()*1000)).success(function(data) {
 
       $scope.opportunities = data;
 
@@ -24,7 +24,7 @@ my18fControllers.controller('ManageCtrl', function($scope, $http) {
  */
 my18fControllers.controller('ViewCtrl', function($scope, $http) {
 
-    $http.get('/api/contractor/opportunities').success(function(data) {
+    $http.get('/api/contractor/opportunities?'+Math.floor(Math.random()*1000)).success(function(data) {
 
       $scope.opportunities = data;
 
