@@ -5,16 +5,24 @@
     margin-right: auto;
     min-height: 100%;
     width: 100%;
+    position: relative;
 }
 
-#box {
-    float: left;
+#box1 {
+    float: none;
     height: auto;
-    margin: 0px;
     clear: none;
     width: 320px;
-    background-color: rgb(53, 53, 53);
     padding: 10px 5px;
+    position: static;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+    display: block;
+    background-color: rgb(53, 53, 53);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #text {
@@ -45,72 +53,51 @@
     color: rgb(207, 216, 220);
 }
 
-#box1 {
-    float: left;
+#box2 {
+    float: none;
     height: auto;
-    margin: 0px;
-    clear: both;
+    margin: 0px auto;
+    clear: none;
     width: 320px;
     padding: 10px 5px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    display: block;
     background-color: rgb(182, 182, 182);
 }
 
-#box2 {
+#formgroup {
     float: left;
-    height: 720px;
-    margin: 158px 0px 0px;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin: 0px;
     clear: none;
-    width: 320px;
-    padding: 5px;
+    width: 100%;
+    min-height: auto;
 }
 
-#text4 {
-    float: left;
-    font-size: 20px;
+#text2 {
+    float: none;
+    font-size: 1em;
     width: auto;
     height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin-left: 5px;
-    margin-top: 0px;
-    clear: none;
-    min-height: 0px;
-    color: rgb(96, 125, 139);
+    padding: 0.2em 0em;
+    display: none;
 }
 
-#box3 {
-    float: left;
-    height: 20px;
-    margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    width: 3px;
-    background-color: rgb(255, 152, 0);
-    margin-right: 0%;
-}
-
-#input7 {
-    float: left;
+#select {
+    float: none;
     height: auto;
-    font-size: 16px;
-    margin: 394.625px 0px 0px;
-    clear: both;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
     width: 100%;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    background-color: rgb(255, 152, 0);
-    color: rgb(255, 255, 255);
-    border-style: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding: 10px;
-}
-
-#input7:hover {
-    background-color: rgb(96, 125, 139);
 }
 
 #formgroup1 {
@@ -123,19 +110,6 @@
     clear: both;
     width: 100%;
     min-height: auto;
-}
-
-#textinput {
-    float: left;
-    height: auto;
-    padding: 0px 0px 0px 3px;
-    font-size: 1em;
-    display: inline-block;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0px;
-    margin-top: 0px;
-    clear: none;
 }
 
 #text3 {
@@ -154,36 +128,17 @@
     clear: none;
 }
 
-#formgroup {
+#textinput {
     float: left;
     height: auto;
-    display: block;
-    text-align: left;
-    margin: 0px;
+    padding: 0px 0px 0px 3px;
+    font-size: 1em;
+    display: inline-block;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0px;
+    margin-top: 0px;
     clear: none;
-    width: 100%;
-    min-height: auto;
-}
-
-#select {
-    float: none;
-    height: auto;
-    padding: 0px;
-    font-size: 1em;
-    display: block;
-    width: 100%;
-}
-
-#text2 {
-    float: none;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    padding: 0.2em 0em;
-    display: none;
 }
 
 #input:hover {
@@ -209,6 +164,53 @@
     background-color: rgb(96, 125, 139);
 }
 
+#box3 {
+    float: none;
+    height: auto;
+    margin: 158px auto 0px;
+    clear: none;
+    width: 320px;
+    padding: 5px;
+    display: block;
+}
+
+#box4 {
+    float: left;
+    height: 20px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 3px;
+    margin-right: 0%;
+    background-color: rgb(255, 152, 0);
+}
+
+#text4 {
+    float: left;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 5px;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(96, 125, 139);
+}
+
+#box5 {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 20px;
+    clear: both;
+    width: 100%;
+    padding: 3px;
+    background-color: rgb(232, 232, 232);
+}
+
 #text5 {
     float: left;
     font-size: 16px;
@@ -217,10 +219,11 @@
     text-align: left;
     font-weight: 600;
     line-height: 1em;
-    margin: 20px 0px 0px;
+    margin: 0px;
     clear: both;
     min-height: 0px;
     color: rgb(96, 125, 139);
+    display: block;
 }
 
 #text6 {
@@ -271,8 +274,8 @@
     -webkit-box-shadow: none;
     box-shadow: none;
     padding: 3px;
-    background-color: rgb(96, 125, 139);
     display: block;
+    background-color: rgb(96, 125, 139);
 }
 
 #input2:hover {
@@ -295,22 +298,11 @@
     -webkit-box-shadow: none;
     box-shadow: none;
     padding: 3px;
-    background-color: rgb(255, 255, 255);
     display: block;
+    background-color: rgb(255, 255, 255);
 }
 
-#box4 {
-    float: left;
-    height: auto;
-    margin-left: 0%;
-    margin-top: 20px;
-    clear: both;
-    width: 100%;
-    background-color: rgb(232, 232, 232);
-    padding: 3px;
-}
-
-#box5 {
+#box6 {
     float: left;
     height: auto;
     margin-left: 0%;
@@ -318,8 +310,8 @@
     clear: both;
     width: 100%;
     padding: 3px;
-    background-color: rgb(232, 232, 232);
     margin-right: 0%;
+    background-color: rgb(232, 232, 232);
 }
 
 #text8 {
@@ -385,8 +377,8 @@
     -webkit-box-shadow: none;
     box-shadow: none;
     padding: 3px;
-    background-color: rgb(96, 125, 139);
     display: block;
+    background-color: rgb(96, 125, 139);
 }
 
 #input4:hover {
@@ -412,7 +404,7 @@
     background-color: rgb(255, 255, 255);
 }
 
-#box6 {
+#box7 {
     float: left;
     height: auto;
     margin-left: 0%;
@@ -487,8 +479,8 @@
     -webkit-box-shadow: none;
     box-shadow: none;
     padding: 3px;
-    background-color: rgb(96, 125, 139);
     display: block;
+    background-color: rgb(96, 125, 139);
 }
 
 #input6:hover {
@@ -514,16 +506,50 @@
     background-color: rgb(255, 255, 255);
 }
 
+#input7:hover {
+    background-color: rgb(96, 125, 139);
+}
+
+#input7 {
+    float: left;
+    height: auto;
+    font-size: 16px;
+    margin: 10px 0px 0px;
+    clear: both;
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgb(255, 255, 255);
+    border-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 10px;
+    display: block;
+    background-color: rgb(255, 152, 0);
+}
+
+#box {
+    float: left;
+    height: auto;
+    clear: none;
+    width: 100%;
+    min-width: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
 @media only screen and (max-width: 320px) {
-    #box {
+    #box1 {
         float: left;
         height: auto;
-        margin: 0px;
         clear: none;
+        padding: 10px 5px;
         width: 320px;
         background-color: rgb(53, 53, 53);
-        padding: 10px 5px;
-        position: fixed;
     }
 
     #text {
@@ -554,76 +580,45 @@
         color: rgb(207, 216, 220);
     }
 
-    #box1 {
-        float: left;
-        height: auto;
-        margin: 0px;
-        clear: none;
-        width: 320px;
-        padding: 10px 5px;
-        background-color: rgb(182, 182, 182);
-        position: fixed;
-        top: 36px;
-        left: 0%;
-    }
-
     #box2 {
         float: left;
         height: auto;
-        margin: 158px 0px 0px;
         clear: none;
+        padding: 10px 5px;
         width: 320px;
-        padding: 5px;
+        background-color: rgb(182, 182, 182);
     }
 
-    #text4 {
+    #formgroup {
         float: left;
-        font-size: 20px;
+        height: auto;
+        display: block;
+        text-align: left;
+        margin: 0px;
+        clear: none;
+        width: 100%;
+        min-height: auto;
+    }
+
+    #text2 {
+        float: none;
+        font-size: 1em;
         width: auto;
         height: auto;
         text-align: left;
         font-weight: normal;
         line-height: 1em;
-        margin-left: 5px;
-        margin-top: 10px;
-        clear: none;
-        min-height: 0px;
-        color: rgb(96, 125, 139);
+        padding: 0.2em 0em;
+        display: none;
     }
 
-    #box3 {
-        float: left;
-        height: 20px;
-        margin-left: 0%;
-        margin-top: 10px;
-        clear: none;
-        width: 3px;
-        background-color: rgb(255, 152, 0);
-        margin-right: 0%;
-    }
-
-    #input7 {
-        float: left;
+    #select {
+        float: none;
         height: auto;
-        font-size: 16px;
-        margin: 10px 0px 0px;
-        clear: both;
-        width: 100%;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        background-color: rgb(255, 152, 0);
-        color: rgb(255, 255, 255);
-        border-style: none;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        padding: 10px;
+        padding: 0px;
+        font-size: 1em;
         display: block;
-    }
-
-    #input7:hover {
-        background-color: rgb(96, 125, 139);
+        width: 100%;
     }
 
     #formgroup1 {
@@ -636,19 +631,6 @@
         clear: both;
         width: 100%;
         min-height: auto;
-    }
-
-    #textinput {
-        float: left;
-        height: auto;
-        padding: 0px 0px 0px 3px;
-        font-size: 1em;
-        display: inline-block;
-        width: 100%;
-        margin-left: 0%;
-        margin-right: 0px;
-        margin-top: 0px;
-        clear: none;
     }
 
     #text3 {
@@ -667,36 +649,17 @@
         clear: none;
     }
 
-    #formgroup {
+    #textinput {
         float: left;
         height: auto;
-        display: block;
-        text-align: left;
-        margin: 0px;
+        padding: 0px 0px 0px 3px;
+        font-size: 1em;
+        display: inline-block;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0px;
+        margin-top: 0px;
         clear: none;
-        width: 100%;
-        min-height: auto;
-    }
-
-    #select {
-        float: none;
-        height: auto;
-        padding: 0px;
-        font-size: 1em;
-        display: block;
-        width: 100%;
-    }
-
-    #text2 {
-        float: none;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        padding: 0.2em 0em;
-        display: none;
     }
 
     #input:hover {
@@ -722,6 +685,54 @@
         background-color: rgb(96, 125, 139);
     }
 
+    #box3 {
+        float: left;
+        margin: 158px 0px 0px;
+        padding: 5px;
+    }
+
+    #box4 {
+        float: left;
+        height: 20px;
+        margin-left: 0%;
+        margin-top: 10px;
+        clear: none;
+        width: 3px;
+        margin-right: 0%;
+        background-color: rgb(255, 152, 0);
+    }
+
+    #text4 {
+        float: left;
+        font-size: 20px;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-left: 5px;
+        margin-top: 10px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(96, 125, 139);
+    }
+
+    #box5 {
+        float: left;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 20px;
+        clear: both;
+        width: 100%;
+        padding: 3px;
+        background-color: rgb(232, 232, 232);
+    }
+
+    #text5:hover {
+        color: rgb(69, 90, 100);
+        display: block;
+    }
+
     #text5 {
         float: left;
         font-size: 16px;
@@ -730,7 +741,6 @@
         text-align: left;
         font-weight: 600;
         line-height: 1em;
-        margin: 0px;
         clear: none;
         min-height: 0px;
         color: rgb(96, 125, 139);
@@ -797,8 +807,8 @@
         -webkit-box-shadow: none;
         box-shadow: none;
         padding: 3px;
-        background-color: rgb(96, 125, 139);
         display: block;
+        background-color: rgb(96, 125, 139);
     }
 
     #input2:hover {
@@ -821,27 +831,11 @@
         -webkit-box-shadow: none;
         box-shadow: none;
         padding: 3px;
+        display: block;
         background-color: rgb(255, 255, 255);
-        display: block;
     }
 
-    #box4 {
-        float: left;
-        height: auto;
-        margin-left: 0%;
-        margin-top: 20px;
-        clear: both;
-        width: 100%;
-        background-color: rgb(232, 232, 232);
-        padding: 3px;
-    }
-
-    #text5:hover {
-        color: rgb(69, 90, 100);
-        display: block;
-    }
-
-    #box5 {
+    #box6 {
         float: left;
         height: auto;
         margin-left: 0%;
@@ -849,8 +843,8 @@
         clear: both;
         width: 100%;
         padding: 3px;
-        background-color: rgb(232, 232, 232);
         margin-right: 0%;
+        background-color: rgb(232, 232, 232);
     }
 
     #text8:hover {
@@ -934,8 +928,8 @@
         -webkit-box-shadow: none;
         box-shadow: none;
         padding: 3px;
-        background-color: rgb(96, 125, 139);
         display: block;
+        background-color: rgb(96, 125, 139);
     }
 
     #input4:hover {
@@ -961,7 +955,7 @@
         background-color: rgb(255, 255, 255);
     }
 
-    #box6 {
+    #box7 {
         float: left;
         height: auto;
         margin-left: 0%;
@@ -1054,8 +1048,8 @@
         -webkit-box-shadow: none;
         box-shadow: none;
         padding: 3px;
-        background-color: rgb(96, 125, 139);
         display: block;
+        background-color: rgb(96, 125, 139);
     }
 
     #input6:hover {
@@ -1079,6 +1073,28 @@
         box-shadow: none;
         padding: 3px;
         background-color: rgb(255, 255, 255);
+    }
+
+    #input7:hover {
+        background-color: rgb(96, 125, 139);
+    }
+
+    #input7 {
+        float: left;
+        height: auto;
+        font-size: 16px;
+        clear: both;
+        width: 100%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        color: rgb(255, 255, 255);
+        border-style: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding: 10px;
+        background-color: rgb(255, 152, 0);
     }
 }
 
