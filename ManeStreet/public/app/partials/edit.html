@@ -9,6 +9,7 @@
 	        </div>
     	</div>
     	<div class="row">
+    	<div class="col-md-12">
 		<form ng-controller="CreateCtrl">
 			<div class="form-group">
 				<label for="title">Title <span class="small text-muted text-uppercase">(Required)</span></label>
@@ -19,7 +20,7 @@
 				<textarea class="form-control" name="description" ng-model="opp.description" id="description" required>{{opp.description}}</textarea>
             </div>
 			<div class="form-group">
-            			<div class="row">
+            	<div class="row">
 					<div class="col-md-4">
 						<label for="responseduedate">Response Due Date</label>
 						<input class="form-control" type="text" name="responseduedate" ng-model="opp.responseduedate" value="{{opp.responseduedate}}" id="responseduedate">
@@ -33,7 +34,7 @@
 						<input class="form-control" type="text" name="set_aside" ng-model="opp.setaside" id="setaside" value="{{opp.setaside}}">
 					</div>
 				</div>
-				</div>
+			</div>
 			<div class="form-group">
             			<div class="row">
 					<div class="col-md-6">
@@ -89,4 +90,5 @@
 			</div>
 		</form>
 	</div>
+</div>
 </div>
