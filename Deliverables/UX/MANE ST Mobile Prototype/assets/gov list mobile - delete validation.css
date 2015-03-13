@@ -75,11 +75,11 @@
 
 #box2 {
     float: left;
-    height: 720px;
+    height: auto;
     margin-left: 0px;
     margin-top: 158px;
     clear: none;
-    width: 100%;
+    width: 320px;
     margin-right: 0px;
     margin-bottom: 0px;
     padding-top: 5px;
@@ -828,11 +828,9 @@
 
     #box2 {
         float: left;
-        height: auto;
         margin-left: 0px;
         margin-top: 158px;
         clear: none;
-        width: 100%;
         margin-right: 0px;
         margin-bottom: 0px;
         padding-top: 5px;
