@@ -1,0 +1,24 @@
+language: node_js
+
+before_install:
+#  - "export DISPLAY=:99.0"
+#  - "sh -e /etc/init.d/xvfb start"
+#  - gem install sass
+#  - gem install compass
+  - bundle install --gemfile=ManeStreet/Gemfile
+
+node_js:
+  - '0.10'
+
+before_script:
+#  - 'npm install -g bower grunt-cli karma'
+#  - 'bower install ManeStreet/bower.json'
+  - sudo apt-get install mysql-server
+  - sudo apt-get install mysql-server mysql-client
+  - sudo apt-get install libmysql-ruby
+  - mysql -e "create database ManeStreet_test;"
+#  - rake -f ManeStreet/Rakefile db:create RAILS_ENV=test
+  - rake -f ManeStreet/Rakefile db:migrate RAILS_ENV=test
+  - rake -f ManeStreet/Rakefile db:seed RAILS_ENV=test
+
+# script: rake -f ManeStreet/Rakefile --trace test
