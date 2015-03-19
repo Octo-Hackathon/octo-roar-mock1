@@ -20,5 +20,5 @@ before_script:
 #  - rake -f ManeStreet/Rakefile db:create RAILS_ENV=test
   - rake -f ManeStreet/Rakefile db:migrate RAILS_ENV=test
   - rake -f ManeStreet/Rakefile db:seed RAILS_ENV=test
-
-# script: rake -f ManeStreet/Rakefile --trace test
+  
+script: rake -f ManeStreet/Rakefile --trace test
